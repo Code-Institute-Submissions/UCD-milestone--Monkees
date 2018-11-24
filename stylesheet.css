@@ -1,12 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Kavoon: 100, 200, 300, 400, 500, 600, 700');
+/*-------------------------------------- body styling */
+body{
+    background-color: #54B2EC;
+}
+
+/* theme colors----------------
+pale blue: #54B2EC
+pink: #EF6BBC
+orange: #F2AD08
+lime green: #AAE748
+---------------------------------*/
+
 /*-------------------------------------- Navbar styling */
 
-.navbar {
-    background-color: #000000;
+.navbar{
+    background-color: #EF6BBC;
     color: #ffffff;
     font-weight: bold;
     position: fixed;
     height: 80px;
     width: 100%;
+    font-family: "Kavoon", sans-serif;
 }
 
 .navbar-header {

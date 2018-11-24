@@ -1,0 +1,28 @@
+body{
+    color:#fff;
+}
+
+/*-------------------------------------- Navbar styling */
+
+.navbar{
+    background-color:#000000;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.navbar-header{
+    padding: 15px 15px 15px 15px;
+}
+
+.nav.navbar-nav{
+     padding: 0px 15px 0px 15px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.btn.navbar-btn.navbar-right{
+    margin-right:15px;
+}

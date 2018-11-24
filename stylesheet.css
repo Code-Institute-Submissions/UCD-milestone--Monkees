@@ -1,28 +1,43 @@
-body{
-    color:#fff;
-}
-
 /*-------------------------------------- Navbar styling */
 
-.navbar{
-    background-color:#000000;
-    color:#ffffff;
+.navbar {
+    background-color: #000000;
+    color: #ffffff;
     font-weight: bold;
+    position: fixed;
+    height: 80px;
+    width: 100%;
 }
 
-.navbar-header{
-    padding: 15px 15px 15px 15px;
+.navbar-header {
+    padding: 25px 15px 15px 15px;
 }
 
-.nav.navbar-nav{
-     padding: 0px 15px 0px 15px;
+.nav.navbar-nav {
+    padding: 0px 15px 0px 15px;
 }
 
 .navbar-default .navbar-nav>li>a {
     color: #ffffff;
     font-weight: bold;
+    padding-top: 25px;
 }
 
-.btn.navbar-btn.navbar-right{
-    margin-right:15px;
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.btn.navbar-btn.navbar-right {
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+/*-------------------------------------- main image styling */
+
+.main-image {
+    display: block;
+    margin: auto;
+    padding-top: 100px;
 }

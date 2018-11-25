@@ -19,7 +19,7 @@ lime green: #AAE748
     color: #ffffff;
     font-weight: bold;
     position: fixed;
-    height: 80px;
+    height: 50px;
     width: 100%;
     font-family: "Kavoon", sans-serif;
 }
@@ -30,7 +30,7 @@ lime green: #AAE748
 }
 
 .navbar-header {
-    padding: 25px 15px 15px 15px;
+   line-height: 50px;
 }
 
 .nav.navbar-nav {
@@ -40,7 +40,7 @@ lime green: #AAE748
 .navbar-default .navbar-nav>li>a {
     color: #ffffff;
     font-weight: bold;
-    padding-top: 25px;
+    line-height: 25px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -50,19 +50,18 @@ lime green: #AAE748
 
 
 .btn.navbar-btn.navbar-right {
-    margin-right: 15px;
-    margin-top: 25px;
+    vertical-align: middle;
+    margin-right: 20px;
 }
 
 /*-------------------------------------- main image styling */
 
-.main-image{
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    display:table-cell;
-    vertical-align: middle;
-    padding-top:100px;
+.main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 58px;
+    position:relative;
 }
 
 

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Kavoon: 100, 200, 300, 400, 500, 600, 700');
 /*-------------------------------------- body styling */
-body{
+
+body {
     background-color: #54B2EC;
 }
 
@@ -13,7 +14,7 @@ lime green: #AAE748
 
 /*-------------------------------------- Navbar styling */
 
-.navbar{
+.navbar {
     background-color: #EF6BBC;
     color: #ffffff;
     font-weight: bold;
@@ -21,6 +22,11 @@ lime green: #AAE748
     height: 80px;
     width: 100%;
     font-family: "Kavoon", sans-serif;
+}
+
+.navbar.navbar-default {
+    border-style: none;
+    border-radius: 0px;
 }
 
 .navbar-header {
@@ -54,4 +60,56 @@ lime green: #AAE748
     display: block;
     margin: auto;
     padding-top: 100px;
+    height: 70%;
+    width: 70%;
+    position: relative;
+}
+
+/*---------------------------------------------------- footer */
+
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: #F2AD08;
+}
+
+.sign-up-link {
+    line-height: 50px;
+    color: #ffffff;
+    font-family: "Kavoon", sans-serif;
+}
+
+.sign-up-link:hover {
+    color: #AAE748;
+}
+
+.social-links {
+    line-height: 50px;
+    text-align: right;
+}
+
+#follow {
+    color: #ffffff;
+    font-family: "Kavoon", sans-serif;
+}
+
+.fa {
+    color: #F2AD08;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    width: 32px;
+    height: 32px;
+    padding: 12px 0px;
+    border-radius: 50%;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.fa:hover {
+    background-color: #AAE748;
 }

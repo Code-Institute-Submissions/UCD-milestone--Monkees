@@ -15,6 +15,7 @@ lime green: #AAE748
 /*-------------------------------------- Navbar styling */
 
 .navbar {
+    display:block;
     background-color: #EF6BBC;
     color: #ffffff;
     font-weight: bold;
@@ -30,7 +31,7 @@ lime green: #AAE748
 }
 
 .navbar-header {
-   line-height: 50px;
+    line-height: 50px;
 }
 
 .nav.navbar-nav {
@@ -56,14 +57,24 @@ lime green: #AAE748
 
 /*-------------------------------------- main image styling */
 
-.main-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 58px;
-    position:relative;
+.image-container.container-fluid {
+    height: 100vh;
+    background: url(Assets/Images/monkeesbigpic.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    background-position: 50% 50px;
 }
 
+
+/*
+@media (min-width:768px) {
+    .image-container {
+        transform: translateY(0px);
+    }
+}
+*/
 
 /*---------------------------------------------------- footer */
 

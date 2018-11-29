@@ -15,11 +15,11 @@ lime green: #AAE748
 /*-------------------------------------- Navbar styling */
 
 .navbar {
-    display:block;
+    display: inline-block;
     background-color: #EF6BBC;
     color: #ffffff;
-    font-weight: bold;
-    position: absolute;
+    font-weight: 700;
+    position: fixed;
     height: 50px;
     width: 100%;
     font-family: "Kavoon", sans-serif;
@@ -36,17 +36,20 @@ lime green: #AAE748
 
 .nav.navbar-nav {
     padding: 0px 15px 0px 15px;
+    margin: 0;
 }
 
 .navbar-default .navbar-nav>li>a {
     color: #ffffff;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 25px;
+    padding-left: 90px;
+    display: inline-block;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
     color: #ffffff;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 
@@ -54,6 +57,94 @@ lime green: #AAE748
     vertical-align: middle;
     margin-right: 20px;
 }
+
+.container {
+    padding-right: 15px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button {
+    border: none;
+    background-color: #EF6BBC;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.glyphicon-menu-hamburger {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.dropdownMenu {
+    list-style: none;
+    background-color: #EF6BBC;
+    width: 120px;
+    padding-left: 0;
+    text-indent: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    transform: translateY(-100%);
+    transition: transform 1s ease-in-out;
+}
+
+.dropdownLink {
+    font-family: "Kavoon", sans-serif;
+    color: #fff;
+    height: 50px;
+    width: 120px;
+}
+
+.dropdownItem:hover {
+    background-color: #d760a9;
+}
+
+.dropdownLink:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown {
+    width: 50px;
+    position: relative;
+}
+
+.dropdown:hover button {
+    background-color: #d760a9;
+}
+
+.dropdown:hover .dropdownMenu {
+    transform: translateY(50px);
+}
+
+/*-------------------------------------- navbar mobile */
+
+/*
+@media (max-width:767px){
+    .dropdownbutton{
+        font-family:"Kavoon", sans-serif;
+        color:#fff;
+    }
+    .dropdownmenu{
+        list-style:none;
+    }
+    .dropdownitem{
+        
+    }
+    .dropdownlink{
+        font-family:"Kavoon", sans-serif;
+        color:#fff;
+    }
+}*/
 
 /*-------------------------------------- main image styling */
 
@@ -78,34 +169,34 @@ lime green: #AAE748
 
 /*---------------------------------------------------- audio-section */
 
-audio{
-    margin-top:10px;
-    width:200px;
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
+audio {
+    margin-top: 10px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-.album-image{
-    height:200px;
-    width:200px;
-    margin-top:100px;
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
+.album-image {
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-.album-name{
+.album-name {
     font-family: "Kavoon", sans-serif;
-    font-weight:300;
-    color:#ffffff;
+    font-weight: 300;
+    color: #ffffff;
     text-align: center;
 }
 
-.audio-container{
-    width:100%;
-    position:absolute;
-    padding-bottom:100px;
+.audio-container {
+    width: 100%;
+    position: absolute;
+    padding-bottom: 100px;
 }
 
 /*---------------------------------------------------- footer */

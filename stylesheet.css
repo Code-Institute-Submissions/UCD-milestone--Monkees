@@ -23,7 +23,7 @@ lime green: #AAE748
     height: 50px;
     width: 100%;
     font-family: "Kavoon", sans-serif;
-    z-index:1;
+    z-index: 1;
 }
 
 .navbar.navbar-default {
@@ -202,6 +202,16 @@ audio {
     width: 100%;
     position: absolute;
     padding-bottom: 100px;
+}
+
+/*---------------------------------------------------- about section */
+
+.about-text {
+    color: #fff;
+    font-family: "Kavoon", sans-serif;
+    transform: translateY(100px);
+    font-weight: 400;
+    width: 90%;
 }
 
 /*---------------------------------------------------- form */

@@ -214,6 +214,44 @@ audio {
     width: 90%;
 }
 
+
+/*---------------------------------------------------- whats new section*/
+.video-main{
+    width:80%;
+    text-align:center;
+    margin-left:20px;
+}
+.video-main h2{
+    color: #fff;
+    font-family: "Kavoon", sans-serif;
+    text-align:left;
+    padding-bottom:10px;
+    padding-top:100px;
+}
+
+.video-tagline{
+    color: #fff;
+    font-family: "Kavoon", sans-serif;
+    text-align:left;
+    padding-top:10px;
+}
+
+.tourdates{
+    color: #fff;
+    font-family: "Kavoon", sans-serif;
+    padding-top:100px;
+    text-align:center;
+}
+
+.tourdates a{
+    color: #fff;
+}
+.tourdates a:hover{
+    color:#F2AD08;
+    transform:transition 0.5s ease-in-out;
+    text-decoration: none;
+}
+
 /*---------------------------------------------------- form */
 
 .form-container h1 {

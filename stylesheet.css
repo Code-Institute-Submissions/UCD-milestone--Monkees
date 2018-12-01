@@ -149,12 +149,10 @@ button {
 /*---------------------------------------------------- audio-section */
 
 audio {
-    margin-top: 10px;
+    margin: 10px auto 60px auto;
     width: 200px;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
-    transform: translateY(80px);
+    transform: translateY(100px);
 }
 
 .album-image {
@@ -166,13 +164,21 @@ audio {
     display: block;
 }
 
-.album-name {
+.album-name{
     font-family: "Kavoon", sans-serif;
     font-weight: 300;
     color: #ffffff;
     text-align: center;
+    transform:translateY(100px);
 }
 
+.music-header{
+    font-family: "Kavoon", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding-top:100px;
+}
 
 /*---------------------------------------------------- about section */
 

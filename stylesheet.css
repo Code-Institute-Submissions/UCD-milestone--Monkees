@@ -409,3 +409,7 @@ footer {
 .fa:hover {
     background-color: #AAE748;
 }
+
+@media (max-width:768px){
+   
+}

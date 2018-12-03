@@ -43,14 +43,14 @@ lime green: #AAE748
     width: 90%;
 }
 
-.navbar-nav>li{
+.navbar-nav>li {
     display: table-cell;
     float: none;
     text-align: center;
 }
 
-.navbar-default .navbar-nav>li>a{
-    color:#ffffff;
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -164,20 +164,20 @@ audio {
     display: block;
 }
 
-.album-name{
+.album-name {
     font-family: "Kavoon", sans-serif;
     font-weight: 300;
     color: #ffffff;
     text-align: center;
-    transform:translateY(100px);
+    transform: translateY(100px);
 }
 
-.music-header{
+.music-header {
     font-family: "Kavoon", sans-serif;
     font-weight: 600;
     color: #ffffff;
     text-align: center;
-    padding-top:100px;
+    padding-top: 100px;
 }
 
 /*---------------------------------------------------- about section */
@@ -190,6 +190,69 @@ audio {
     width: 90%;
 }
 
+#photo-slide-container{
+    height:400px;
+    width:600px;
+    overflow-x:hidden;
+}
+
+#photo-slider{
+    position:relative;
+    width:600px;
+    height:400px;
+    animation-name: slider;
+    animation-duration: 7s;
+    animation-delay: 4s;
+    transition-timing-function: ease;
+    animation-iteration-count: infinite;
+    margin-left:50px;
+    margin-top:100px;
+}
+
+#photo{
+    height:400px;
+    width:600px;
+}
+
+@keyframes slider{
+    0%{
+        top:0px;
+    }
+    25%{
+        top:-500px;
+    }
+    50%{
+        top:-500px;
+    }
+    75%{
+        top:-500px;
+    }
+    100%{
+        top:-800px;
+    }
+}
+
+@media (min-height:768px){
+    
+}
+
+.band-container{
+     margin-top:50px;
+     margin-bottom:100px;
+}
+
+.band-pics{
+    height:200px;
+    width:200px;
+    display:inline-block;
+    margin-left:60px;
+    
+}
+.band-p{
+    color: #fff;
+    font-family: "Kavoon", sans-serif;
+    text-indent: 50px;
+}
 
 /*---------------------------------------------------- whats new section*/
 
@@ -249,6 +312,7 @@ audio {
 .container-fluid.form-container {
     margin-top: 100px;
     margin-left: 75px;
+    display:inline-block;
 }
 
 .form-control {
@@ -293,6 +357,8 @@ label {
     font-family: "Kavoon", sans-serif;
     color: #fff;
 }
+
+
 
 
 /*---------------------------------------------------- footer */

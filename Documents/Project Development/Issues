@@ -1,0 +1,32 @@
+HOME
+1) big gap between photo and footer - unnessecary at smaller screen sizes
+2) menu doesn't burger at medium resolution - just hovers below pink nav bar
+3) footer cut off on right on mobile - only fb social link shown
+
+ABOUT
+1) Slideshow doesn't hide overflow on top border
+2)slideshow is not responsive
+3)band profiles and about text is not responsive
+4)menu doesn't burger at medium resolution - just hovers below pink nav bar
+5) footer cut off on right - random horizontal scroll on bigger screens
+6) footer cut off on right on mobile - only fb social link shown
+
+MUSIC
+1) footer cut off on right on mobile - only fb social link shown
+2) big gap between footer and content on medium screen size
+3) menu doesn't burger at medium resolution - just hovers below pink nav bar
+
+WHAT'S NEW
+1) at medium screen size have overlap of columns (text and video)
+2) video size not responsive to reduced screen sizes
+3) menu doesn't burger at medium resolution - just hovers below pink nav bar
+4) big gap between footer and content on medium screen size
+5) not padding/margin at bottom of tour dates when in mobile view - info gets cut off
+6) footer cut off on right on mobile - only fb social link shown
+
+BOOK
+1) footer cut off on right on mobile - only fb social link shown
+2) no padding on left of footer in mobile - text right up against edge of screen
+3) content a bit narrow on mobile
+4) menu doesn't burger at medium resolution - just hovers below pink nav bar
+5) big gap between footer and content on medium screen size

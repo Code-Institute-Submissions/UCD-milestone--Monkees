@@ -18,18 +18,16 @@ MUSIC
 
 WHAT'S NEW
 1) at medium screen size have overlap of columns (text and video)
-2) video size not responsive to reduced screen sizes
 3) menu doesn't burger at medium resolution - just hovers below pink nav bar
 4) big gap between footer and content on medium screen size
-5) not padding/margin at bottom of tour dates when in mobile view - info gets cut off
 6) footer cut off on right on mobile - only fb social link shown
 
 BOOK
 
 2) no padding on left of footer in mobile - text right up against edge of screen
-3) content a bit narrow on mobile
 4) menu doesn't burger at medium resolution - just hovers below pink nav bar
 5) big gap between footer and content on medium screen size
 
 EVERYWHERE:
 1) NAVBAR not fixed to top of page on mobile screens
+2) can't get fb links to center on every page - just some??

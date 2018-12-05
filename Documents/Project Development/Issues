@@ -1,33 +1,22 @@
 HOME
-1) big gap between photo and footer - unnessecary at smaller screen sizes
-2) menu doesn't burger at medium resolution - just hovers below pink nav bar
-
 
 ABOUT
 1) Slideshow doesn't hide overflow on top border
 2)slideshow is not responsive
-3)band profiles and about text is not responsive
-4)menu doesn't burger at medium resolution - just hovers below pink nav bar
-5) footer cut off on right - random horizontal scroll on bigger screens
-6) footer cut off on right on mobile - only fb social link shown
 
 MUSIC
 
 2) big gap between footer and content on medium screen size
-3) menu doesn't burger at medium resolution - just hovers below pink nav bar
+
 
 WHAT'S NEW
-1) at medium screen size have overlap of columns (text and video)
-3) menu doesn't burger at medium resolution - just hovers below pink nav bar
+
 4) big gap between footer and content on medium screen size
-6) footer cut off on right on mobile - only fb social link shown
+
 
 BOOK
-
-2) no padding on left of footer in mobile - text right up against edge of screen
-4) menu doesn't burger at medium resolution - just hovers below pink nav bar
 5) big gap between footer and content on medium screen size
 
 EVERYWHERE:
 1) NAVBAR not fixed to top of page on mobile screens
-2) can't get fb links to center on every page - just some??
+2)footer not fixed to bottom on mobile screens

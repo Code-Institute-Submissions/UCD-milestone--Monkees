@@ -44,6 +44,16 @@ lime green: #AAE748
     width: 90%;
 }
 
+@media (min-width:992px){
+    .nav.navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: auto;
+    float: none;
+    width: 75%;
+}
+}
+
 .navbar-nav>li {
     display: table-cell;
     float: none;
@@ -161,6 +171,42 @@ button {
     background-position: 50% 50px;
 }
 
+
+@media (min-width:801px){
+    .image-container.container-fluid{
+        height:100vh;
+    }
+}
+
+@media (max-width:800px){
+    .image-container.container-fluid{
+        height:60vh;
+        padding-bottom:0;
+        margin-bottom:0;
+    }
+}
+
+@media (max-width:480px){
+    .image-container.container-fluid{
+        height:45vh;
+    }
+}
+
+
+.band-title{
+    font-family: "Kavoon", sans-serif;
+    font-weight: 700;
+    font-size:75px;
+    color: #ffffff; 
+    text-align:center;
+    padding-top:10px;
+    margin:0;
+}
+
+@media (min-width:801px){
+.band-title{
+        color:transparent;
+    }}
 /*---------------------------------------------------- audio-section */
 
 audio {

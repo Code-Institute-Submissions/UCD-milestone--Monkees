@@ -44,14 +44,14 @@ lime green: #AAE748
     width: 90%;
 }
 
-@media (min-width:992px){
+@media (min-width:992px) {
     .nav.navbar-nav {
-    margin: 0 auto;
-    display: table;
-    table-layout: auto;
-    float: none;
-    width: 75%;
-}
+        margin: 0 auto;
+        display: table;
+        table-layout: auto;
+        float: none;
+        width: 75%;
+    }
 }
 
 .navbar-nav>li {
@@ -167,46 +167,89 @@ button {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: contain;
-    background-position: 50% 50px;
+    background-size: cover;
+    background-position: 100% 50px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 50px;
 }
 
 
-@media (min-width:801px){
-    .image-container.container-fluid{
-        height:100vh;
+@media (min-width:801px) {
+    .image-container.container-fluid {
+        height: 100vh;
+    }
+    .image-container.container-fluid {
+        height: 100vh;
+        background: url(Assets/Images/monkeesbigpic.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: contain;
+        background-position: 100% 50px;
+        margin-left: 0;
+        padding-left: 0;
+        padding-top: 50px;
     }
 }
 
-@media (max-width:800px){
-    .image-container.container-fluid{
-        height:60vh;
-        padding-bottom:0;
-        margin-bottom:0;
+}
+
+@media (max-width:800px) {
+    .image-container.container-fluid {
+        height: 60vh;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .image-container.container-fluid {
+        height: 100vh;
+        background: url(Assets/Images/monkeesbigpic.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: contain;
+        background-position: 100% 50px;
+        margin-left: 0;
+        padding-left: 0;
+        padding-top: 50px;
     }
 }
 
-@media (max-width:480px){
-    .image-container.container-fluid{
-        height:45vh;
+@media (max-width:480px) {
+    .image-container.container-fluid {
+        height: 45vh;
+    }
+    .image-container.container-fluid {
+        height: 100vh;
+        background: url(Assets/Images/monkeesbigpic.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: contain;
+        background-position: 100% 50px;
+        margin-left: 0;
+        padding-left: 0;
+        padding-top: 50px;
     }
 }
 
 
-.band-title{
+.container.band-title {
     font-family: "Kavoon", sans-serif;
     font-weight: 700;
-    font-size:75px;
-    color: #ffffff; 
-    text-align:center;
-    padding-top:10px;
-    margin:0;
+    font-size: 75px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
 }
 
-@media (min-width:801px){
-.band-title{
-        color:transparent;
-    }}
+@media (min-width:801px) {
+    .container.band-title {
+        color: transparent;
+    }
+}
+
 /*---------------------------------------------------- audio-section */
 
 audio {
@@ -360,7 +403,7 @@ audio {
     text-align: left;
     padding-top: 10px;
     padding-left: 50px;
-    font-size:20px;
+    font-size: 20px;
 }
 
 .tourdates {
@@ -427,9 +470,9 @@ audio {
     font-weight: 500;
 }
 
-@media (max-width:768px){
-    .form-text{
-        width:80%;
+@media (max-width:768px) {
+    .form-text {
+        width: 80%;
     }
 }
 

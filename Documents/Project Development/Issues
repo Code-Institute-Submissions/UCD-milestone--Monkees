@@ -1,14 +1,13 @@
 HOME
 1) get rid of blue border for main image at larger screen sizes
 3) hover transforms jerky. need to add transition duration etc.
-4)need to line up video title and header text
+4) need to line up video title and header text
 
 
 
 ABOUT
 1) Slideshow doesn't hide overflow on top border - make row of horizontal images instead?
-2)slideshow is not responsive - currently commented out
-3) NAVBAR not fixed to top of page on mobile screens
+2) slideshow is not responsive - currently commented out
 4) text content not aligned centrally in mobile
 2)footer not fixed to bottom on mobile screens
 
@@ -25,9 +24,6 @@ WHAT'S NEW - whole page currently removed - content moved to index.html
 BOOK
 5) big gap between footer and content on medium screen size
 6) haven't worked out how to add a calendar - perhaps too challenging?
-7)footer not fixed to bottom on mobile screens
-8) NAVBAR not fixed to top of page on mobile screens
-9) horizontal scroll happening
 10) never share email font needs fixing
 
 EVERYWHERE:

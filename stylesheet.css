@@ -182,7 +182,7 @@ button {
     padding: 0;
 }
 
-h1 #latest {
+h1 .latest-news{
     font-size: 36px;
     font-size: 36px;
     background-color: #AAE748;
@@ -226,6 +226,11 @@ h1 #latest {
     margin-right: 15px;
     display: inline-block;
     width:90%;
+    text-align:center;
+}
+
+.video-tagline{
+    margin-bottom:50px;
 }
 
 /*---------------------------------------------------- audio-section */

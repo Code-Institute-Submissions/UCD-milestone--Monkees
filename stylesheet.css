@@ -188,7 +188,7 @@ h1 .latest-news {
     padding-top: 15px;
     padding-bottom: 15px;
     font-family: "Kavoon", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 30px;
     color: #ffffff;
     text-align: center;
@@ -228,33 +228,39 @@ h1 .latest-news {
 }
 
 .video-tagline {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
-.newsletter {
+.container-fluid.newsletter {
     background-color: #AAE748;
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: "Kavoon", sans-serif;
     font-weight: 700;
     font-size: 30px;
     color: #ffffff;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom:0;
 }
 
 .book-the-band {
-    background-color: #AAE748;
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
     font-family: "Kavoon", sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 70px;
     color: #ffffff;
     text-align: center;
-    margin-bottom: 75px;
+    transform:translateY(210px);
+}
+
+#book-the-band-img{
+    background-image:url('/Assets/Images/Images from google/empty-stage.jpg');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:500px;
+    margin-bottom:50px;
 }
 
 .book-the-band a {
@@ -285,13 +291,13 @@ h1 .latest-news {
 .modal-link{
     font-size:20px;
     color:#fff;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .modal-link:hover{
     font-size:20px;
     color:#F2AD08;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /*---------------------------------------------------- audio-section */

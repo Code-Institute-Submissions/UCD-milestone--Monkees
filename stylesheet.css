@@ -172,6 +172,8 @@ button {
     color: #ffffff;
     text-align: center;
     background-color: #AAE748;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .container-fluid {
@@ -184,10 +186,6 @@ button {
 }
 
 h1 .latest-news {
-    background-color: #AAE748;
-    width: 100%;
-    padding-top: 0px;
-    padding-bottom: 15px;
     font-family: "Kavoon", sans-serif;
     font-weight: 500;
     font-size: 30px;

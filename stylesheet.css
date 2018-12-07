@@ -161,8 +161,8 @@ button {
 
 /*-------------------------------------- main image styling */
 
-.index-image{
-  padding-top:75px;
+.index-image {
+    padding-top: 75px;
 }
 
 #latest {
@@ -182,9 +182,7 @@ button {
     padding: 0;
 }
 
-h1 .latest-news{
-    font-size: 36px;
-    font-size: 36px;
+h1 .latest-news {
     background-color: #AAE748;
     width: 100%;
     padding-top: 15px;
@@ -225,12 +223,47 @@ h1 .latest-news{
     margin-left: 15px;
     margin-right: 15px;
     display: inline-block;
-    width:90%;
-    text-align:center;
+    width: 90%;
+    text-align: center;
 }
 
-.video-tagline{
+.video-tagline {
+    margin-bottom: 50px;
+}
+
+.newsletter {
+    background-color: #AAE748;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Kavoon", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
     margin-bottom:50px;
+}
+
+.book-the-band{
+    background-color: #AAE748;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Kavoon", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom:75px;
+}
+
+.book-the-band a{
+    color:#ffffff;
+}
+
+.book-the-band a:hover{
+    color:#F2AD08;
+    text-decoration:none;
 }
 
 /*---------------------------------------------------- audio-section */

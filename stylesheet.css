@@ -161,113 +161,71 @@ button {
 
 /*-------------------------------------- main image styling */
 
-.image-container.container-fluid {
-    height: 100vh;
-    background: url(Assets/Images/monkeesbigpic.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: 100% 50px;
-    margin-left: 0;
-    padding-left: 0;
-    padding-top: 50px;
+.index-image{
+  padding-top:75px;
 }
 
-@media (min-width:801px) {
-    .image-container.container-fluid {
-        height: 100vh;
-    }
-    .image-container.container-fluid {
-        height: 100vh;
-        background: url(Assets/Images/monkeesbigpic.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position: 100% 50px;
-        margin-left: 0;
-        padding-left: 0;
-        padding-top: 50px;
-    }
-}
-
-}
-
-@media (max-width:800px) {
-    .image-container.container-fluid {
-        height: 60vh;
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-    .image-container.container-fluid {
-        height: 100vh;
-        background: url(Assets/Images/monkeesbigpic.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: contain;
-        background-position: 100% 50px;
-        margin-left: 0;
-        padding-left: 0;
-        padding-top: 50px;
-    }
-}
-
-@media (max-width:480px) {
-    .image-container.container-fluid {
-        height: 45vh;
-    }
-    .image-container.container-fluid {
-        height: 100vh;
-        background: url(Assets/Images/monkeesbigpic.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: contain;
-        background-position: 100% 50px;
-        margin-left: 0;
-        padding-left: 0;
-        padding-top: 50px;
-    }
-}
-
-
-.container.band-title {
+#latest {
     font-family: "Kavoon", sans-serif;
     font-weight: 700;
     font-size: 75px;
     color: #ffffff;
     text-align: center;
-    padding-top: 10px;
-    margin: 0;
+    background-color: #AAE748;
 }
 
-@media (min-width:801px) {
-    .container.band-title {
-        color: transparent;
-    }
+.container-fluid {
+    padding: 0;
 }
 
-#latest .container-fluid{
-    font-family: "Kavoon", sans-serif;
-    font-weight: 700;
-    font-size: 75px;
-    color: #ffffff;
-    text-align: center;
-    background-color:#AAE748;
-}
-.col-xs-12.tourdates{
-    padding:0;
+.col-xs-12.tourdates {
+    padding: 0;
 }
 
-h1 {
+h1 #latest {
     font-size: 36px;
     font-size: 36px;
     background-color: #AAE748;
     width: 100%;
-    padding-top:15px;
-    padding-bottom:15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Kavoon", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.tourdates-index {
+    font-family: "Kavoon", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.tourdates-index a {
+    padding-bottom: 100px;
+    font-family: "Kavoon", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.video-title {
+    font-family: "Kavoon", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.index-video {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
+    width:90%;
 }
 
 /*---------------------------------------------------- audio-section */
@@ -431,6 +389,7 @@ audio {
     font-family: "Kavoon", sans-serif;
     padding-top: 100px;
     text-align: center;
+    margin-bottom: 70px;
 }
 
 .tourdates a {

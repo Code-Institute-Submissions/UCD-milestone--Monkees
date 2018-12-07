@@ -1,25 +1,29 @@
 HOME
-1) monkees title has disappered after changing picture positioning
-
+1) "Latest news" text too big?
 
 ABOUT
-1) Slideshow doesn't hide overflow on top border
-2)slideshow is not responsive
+1) Slideshow doesn't hide overflow on top border - make row of horizontal images instead?
+2)slideshow is not responsive - currently commented out
+3) NAVBAR not fixed to top of page on mobile screens
+4) text content not aligned centrally in mobile
+2)footer not fixed to bottom on mobile screens
 
 MUSIC
 
 2) big gap between footer and content on medium screen size
 
 
-WHAT'S NEW
+WHAT'S NEW - whole page currently removed - content moved to index.html
 
 4) big gap between footer and content on medium screen size
 
 
 BOOK
 5) big gap between footer and content on medium screen size
+6) haven't worked out how to add a calendar - perhaps too challenging?
+7)footer not fixed to bottom on mobile screens
+8) NAVBAR not fixed to top of page on mobile screens
+9) horizontal scroll happening
 
 EVERYWHERE:
-1) NAVBAR not fixed to top of page on mobile screens
-2)footer not fixed to bottom on mobile screens
-3) h1 needs formatting on some pages
+1) Burger menu too far in on left of pages.

@@ -249,7 +249,7 @@ h1 .latest-news {
 .book-the-band {
     width: 100%;
     font-family: "Kavoon", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 70px;
     color: #ffffff;
     text-align: center;
@@ -270,8 +270,9 @@ h1 .latest-news {
 }
 
 .book-the-band a:hover {
-    color: #F2AD08;
+    color: #fff;
     text-decoration: none;
+    font-weight:700;
 }
 
 .btn-success {
@@ -297,9 +298,8 @@ h1 .latest-news {
 }
 
 .modal-link:hover{
-    font-size:20px;
-    color:#F2AD08;
-    text-decoration: none;
+    color:#fff;
+    text-decoration: underline;
 }
 
 

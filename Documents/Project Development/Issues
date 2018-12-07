@@ -1,9 +1,8 @@
 HOME
 1) "Latest news" text too big? - particularly on mobile
-2) too much padding top of main images
-3) not sure about hover for links - maybe keep it white and have simple underline??
-4) wider bar of green for "latest news" element
-5) no gaps between elements on home page - consistency
+3) hover transforms jerky. need to add transition duration etc.
+4) wider bar of green for "latest news" element on desk top
+
 
 ABOUT
 1) Slideshow doesn't hide overflow on top border - make row of horizontal images instead?

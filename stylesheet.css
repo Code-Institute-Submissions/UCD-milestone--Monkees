@@ -162,7 +162,7 @@ button {
 /*-------------------------------------- main image styling */
 
 .index-image {
-    padding-top: 75px;
+    padding-top: 50px;
 }
 
 #latest {
@@ -176,6 +176,7 @@ button {
 
 .container-fluid {
     padding: 0;
+    margin: auto;
 }
 
 .col-xs-12.tourdates {
@@ -185,13 +186,14 @@ button {
 h1 .latest-news {
     background-color: #AAE748;
     width: 100%;
-    padding-top: 15px;
+    padding-top: 0px;
     padding-bottom: 15px;
     font-family: "Kavoon", sans-serif;
     font-weight: 500;
     font-size: 30px;
     color: #ffffff;
     text-align: center;
+    margin-top:0;
 }
 
 .tourdates-index {

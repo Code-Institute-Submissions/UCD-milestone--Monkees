@@ -241,10 +241,10 @@ h1 .latest-news {
     font-size: 30px;
     color: #ffffff;
     text-align: center;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
-.book-the-band{
+.book-the-band {
     background-color: #AAE748;
     width: 100%;
     padding-top: 15px;
@@ -254,16 +254,44 @@ h1 .latest-news {
     font-size: 30px;
     color: #ffffff;
     text-align: center;
-    margin-bottom:75px;
+    margin-bottom: 75px;
 }
 
-.book-the-band a{
-    color:#ffffff;
+.book-the-band a {
+    color: #ffffff;
 }
 
-.book-the-band a:hover{
+.book-the-band a:hover {
+    color: #F2AD08;
+    text-decoration: none;
+}
+
+.btn-success {
+    color: #fff;
+    font-family: "Kavoon", sans-serif;
+    background-color:  #F2AD08;
+    border-color:  #F2AD08;
+    width: 100px;
+}
+
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    font-family: "Kavoon",sans-serif;
+    font-size: 30px;
+    color:  #F2AD08;
+}
+
+.modal-link{
+    font-size:20px;
+    color:#fff;
+    text-decoration: underline;
+}
+
+.modal-link:hover{
+    font-size:20px;
     color:#F2AD08;
-    text-decoration:none;
+    text-decoration: underline;
 }
 
 /*---------------------------------------------------- audio-section */
@@ -557,7 +585,9 @@ label {
     color: #fff;
 }
 
-
+.email-help-book{
+    color:#fff;
+}
 
 
 /*---------------------------------------------------- footer */
@@ -577,7 +607,8 @@ footer {
 }
 
 .sign-up-link:hover {
-    color: #AAE748;
+    color: #EF6BBC;
+    text-decoration:none;
 }
 
 .social-links {
@@ -620,5 +651,5 @@ footer {
 }
 
 .fa:hover {
-    background-color: #AAE748;
+    background-color: #EF6BBC;
 }

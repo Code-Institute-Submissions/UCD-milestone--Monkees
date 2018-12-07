@@ -1,6 +1,7 @@
 HOME
 1) get rid of blue border for main image at larger screen sizes
 3) hover transforms jerky. need to add transition duration etc.
+4)need to line up video title and header text
 
 
 

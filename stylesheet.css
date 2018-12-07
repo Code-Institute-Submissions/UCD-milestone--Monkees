@@ -513,7 +513,7 @@ audio {
     }
 }
 
-/*---------------------------------------------------- form */
+/*----------------------------------------------------  book form */
 
 .form-container h1 {
     color: #fff;
@@ -545,7 +545,7 @@ audio {
         margin-top: 50px;
         margin-left: 15px;
         display: block;
-        width: 100%;
+        width: 90%;
     }
 }
 

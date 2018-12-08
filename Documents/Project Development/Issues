@@ -1,9 +1,6 @@
 HOME
 1) get rid of blue border for main image at larger screen sizes
 3) hover transforms jerky. need to add transition duration etc.
-4) need to line up video title and header text
-
-
 
 ABOUT
 1) Slideshow doesn't hide overflow on top border - make row of horizontal images instead?
@@ -16,9 +13,8 @@ MUSIC
 2) big gap between footer and content on medium screen size
 
 
-WHAT'S NEW - whole page currently removed - content moved to index.html
-
-4) big gap between footer and content on medium screen size
+***WHAT'S NEW - whole page currently removed - content moved to index.html
+4) big gap between footer and content on medium screen size***
 
 
 BOOK
@@ -27,4 +23,3 @@ BOOK
 10) never share email font needs fixing
 
 EVERYWHERE:
-1) Burger menu too far in on left of pages.

@@ -27,6 +27,12 @@ lime green: #AAE748
     padding-left: 15px;
 }
 
+@media(max-width:992px){
+    .navbar{
+        padding-left:0;
+    }
+}
+
 .navbar.navbar-default {
     border-style: none;
     border-radius: 0px;
@@ -75,11 +81,17 @@ lime green: #AAE748
     margin-right: 20px;
 }
 
-.container {
+.container.nav-container {
     padding-right: 15px;
     padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0;
+    margin-left:0;
+}
+
+@media (min-width: 768px){
+.container {
+    width: auto;
+}
 }
 
 button {
@@ -159,6 +171,9 @@ button {
     text-decoration: none;
 }
 
+.col-xs-6.burger-menu{
+    padding-left:0;
+}
 /*-------------------------------------- main image styling */
 
 .index-image {

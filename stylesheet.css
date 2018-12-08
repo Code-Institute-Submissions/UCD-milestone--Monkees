@@ -368,6 +368,30 @@ audio {
 
 /*---------------------------------------------------- about section */
 
+@media(min-width:768px) {
+    .about-img {
+        transform: translateY(-150px);
+    }
+}
+
+@media(max-width:1000px) {
+    .about-img {
+        transform: translateY(-100px);
+    }
+}
+
+@media(max-width:737px) {
+    .about-img {
+        transform: translateY(-50px);
+    }
+}
+
+@media(max-width:400px) {
+    .about-img {
+        transform: translateY(0px);
+    }
+}
+
 .about-text {
     color: #fff;
     font-family: "Kavoon", sans-serif;

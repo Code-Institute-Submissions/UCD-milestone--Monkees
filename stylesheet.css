@@ -309,6 +309,11 @@ h1 .latest-news {
     width: 100px;
 }
 
+.btn-success:hover {
+    background-color: #AAE748;
+    border-color: #AAE748;
+}
+
 .modal-title {
     margin: 0;
     line-height: 1.42857143;

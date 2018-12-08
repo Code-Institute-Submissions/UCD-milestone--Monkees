@@ -658,6 +658,14 @@ audio {
     color: #fff;
     background-color: #AAE748;
     border-color: transparent;
+    font-weight:500;
+}
+
+.form-button:hover{
+    background-color:#AAE748;
+    color:#fff;
+    border-color: transparent;
+    font-weight:700;
 }
 
 .form-group {
@@ -676,6 +684,7 @@ label {
 
 .email-help-book {
     color: #fff;
+    font-family:"Kavoon", sans-serif;
 }
 
 

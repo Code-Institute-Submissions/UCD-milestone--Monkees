@@ -503,6 +503,10 @@ audio {
     padding-bottom: 25px;
 }
 
+.last-image{
+    padding-bottom:75px;
+}
+
 @media (max-width:768px) {
     .band-p {
         padding-left: 25px;

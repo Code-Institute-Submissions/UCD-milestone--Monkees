@@ -8,7 +8,7 @@ ABOUT
 
 MUSIC
 1) page a bit empty at the moment - maybe have a 'shop' element beneath album samples?
-2) big gap between footer and content on medium screen size
+
 
 
 ***WHAT'S NEW - whole page currently removed - content moved to index.html
@@ -16,9 +16,9 @@ MUSIC
 
 
 BOOK
-5) big gap between footer and content on medium screen size
 6) haven't worked out how to add a calendar - perhaps too challenging?
 10) never share email font needs fixing
-11)footer and nav not fixed in medium
+11) hover on sumbit button needs fixing
 
 EVERYWHERE:
+1) active status on links gone to navy - fix

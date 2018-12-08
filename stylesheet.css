@@ -179,6 +179,7 @@ button {
 
 .index-image {
     padding-top: 50px;
+    margin-bottom: 0;
 }
 
 #latest {
@@ -327,7 +328,6 @@ h1 .latest-news {
     text-decoration: underline;
 }
 
-
 .row {
     margin: 0;
 }
@@ -368,6 +368,10 @@ audio {
 
 /*---------------------------------------------------- about section */
 
+.about-img {
+    margin-bottom: -60px;
+}
+
 @media(min-width:768px) {
     .about-img {
         transform: translateY(-150px);
@@ -395,13 +399,11 @@ audio {
 .about-text {
     color: #fff;
     font-family: "Kavoon", sans-serif;
-    transform: translateY(100px);
     font-weight: 400;
     width: 90%;
     display: inline-block;
-    margin-bottom: 100px;
-    margin-left: 50px;
     padding-bottom: 40px;
+    margin-left: 50px;
 }
 
 @media (max-width:768px) {
@@ -479,6 +481,7 @@ audio {
     width: 200px;
     display: inline-block;
     margin-left: 50px;
+    margin-top: 25px;
 }
 
 @media (max-width:768px) {
@@ -492,7 +495,7 @@ audio {
     font-family: "Kavoon", sans-serif;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 @media (max-width:768px) {

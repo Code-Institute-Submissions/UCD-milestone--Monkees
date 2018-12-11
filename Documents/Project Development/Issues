@@ -16,8 +16,11 @@ MUSIC
 
 
 BOOK
-
+1) button on sign up form does weird grey fill after being clicked.
 
 
 EVERYWHERE:
-1) 
+1) change sign up link in footer to white underline instead of pink color - for consistency
+2) sign up modal needs to check for valid email address and have something for user to know it has worked.
+3) sign up modal button need to get rid of weird darker green
+4) social media icons need to be linked to actual pages and to open in new tab when clicked.

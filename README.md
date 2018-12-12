@@ -86,9 +86,9 @@ so users can buy the records after listening.
 ## Technologies Used
 ### HTML, CSS and JavaScript
 Used as base languages to write and style webpages.
-<a href:"https://www.w3.org/TR/html/">Link to page: HTML</a>
-<a href:"https://www.w3.org/Style/CSS/Overview.en.html">Link to page: CSS</a>
-<a href:"https://www.w3schools.com/js/default.asp">Link to page: JavaScript</a>
+HTML: https://www.w3.org/TR/html/
+CSS: https://www.w3.org/Style/CSS/Overview.en.html
+JavaScript: https://www.w3schools.com/js/default.asp
 
 ### Bootstrap
 This project uses Bootstrap as a framework to assist in page layout, navigation, modal and carousel features.

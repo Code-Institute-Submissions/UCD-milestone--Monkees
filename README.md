@@ -84,8 +84,7 @@ so users can buy the records after listening.
 
 
 ## Technologies Used
-
-### HTMl, CSS and Javascript
+### HTML, CSS and Javascript
 Used as base languages to write and style webpages.
 <link href:"https://www.w3.org/TR/html/"/>
 <link href:"https://www.w3.org/Style/CSS/Overview.en.html"/>

@@ -92,27 +92,27 @@ Used as base languages to write and style webpages.
 
 ### Bootstrap
 This project uses Bootstrap as a framework to assist in page layout, navigation, modal and carousel features.
-https://getbootstrap.com/
+<br>https://getbootstrap.com/
 
 ### Cloud9
 This project was written on Cloud9.
-https://c9.io/login
+<br>https://c9.io/login
 
 ### JQuery
 This project uses JQuery to assist in execution of bootstrap and javaScript features, particularly the modal element.
-https://jquery.com/
+<br>https://jquery.com/
 
 ### FontAwesome
 FontAwesome was used to get social link icons for facebook, twitter and youtube.
-https://fontawesome.com/
+<br>https://fontawesome.com/
 
 ### Google Fonts
 Main theme font "Kavoon" was taken from Google fonts.
-https://fonts.google.com/
+<br>https://fonts.google.com/
 
 ### GitHub
 Local git repository was pushed to remote repository on GitHub and site was published using GitHub pages.
-https://github.com/
+<br>https://github.com/
 
 ## Testing
 ### Testing my user stories 

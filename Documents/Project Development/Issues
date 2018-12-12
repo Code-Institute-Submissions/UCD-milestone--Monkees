@@ -1,7 +1,7 @@
 HOME
 1) get rid of blue border for main image at larger screen sizes?
 3) hover transforms jerky. need to add transition duration etc.
-4) add in blank "buy tickets page for buy link" - get buy link to be underlined.
+4)get buy link to be underlined.
 
 ABOUT
 1) Slideshow doesn't hide overflow on top border - make row of horizontal images instead?

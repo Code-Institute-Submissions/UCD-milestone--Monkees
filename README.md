@@ -86,33 +86,33 @@ so users can buy the records after listening.
 ## Technologies Used
 ### HTML, CSS and JavaScript
 Used as base languages to write and style webpages.
-HTML: https://www.w3.org/TR/html/
-CSS: https://www.w3.org/Style/CSS/Overview.en.html
-JavaScript: https://www.w3schools.com/js/default.asp
+<br> HTML: https://www.w3.org/TR/html/
+<br> CSS: https://www.w3.org/Style/CSS/Overview.en.html
+<br> JavaScript: https://www.w3schools.com/js/default.asp
 
 ### Bootstrap
 This project uses Bootstrap as a framework to assist in page layout, navigation, modal and carousel features.
-<a href:"">Link to page</a><link href="https://getbootstrap.com/" />
+https://getbootstrap.com/
 
 ### Cloud9
 This project was written on Cloud9.
-<a href:"">Link to page</a> <link href="https://c9.io/login" />
+https://c9.io/login
 
 ### JQuery
 This project uses JQuery to assist in execution of bootstrap and javaScript features, particularly the modal element.
-<a href:"">Link to page</a><link href="https://jquery.com/" />
+https://jquery.com/
 
 ### FontAwesome
 FontAwesome was used to get social link icons for facebook, twitter and youtube.
-<a href:"">Link to page</a><link href="https://fontawesome.com/" />
+https://fontawesome.com/
 
 ### Google Fonts
 Main theme font "Kavoon" was taken from Google fonts.
-<a href:"">Link to page</a><link href="https://fonts.google.com/" />
+https://fonts.google.com/
 
 ### GitHub
 Local git repository was pushed to remote repository on GitHub and site was published using GitHub pages.
-<a href:"">Link to page</a><link href:"https://github.com/"/>
+https://github.com/
 
 ## Testing
 ### Testing my user stories 

@@ -752,8 +752,7 @@ footer {
 }
 
 .sign-up-link:hover {
-    color: #EF6BBC;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:focus,

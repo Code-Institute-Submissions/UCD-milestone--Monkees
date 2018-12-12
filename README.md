@@ -84,35 +84,35 @@ so users can buy the records after listening.
 
 
 ## Technologies Used
-### HTML, CSS and Javascript
+### HTML, CSS and JavaScript
 Used as base languages to write and style webpages.
-<link href:"https://www.w3.org/TR/html/"/>
-<link href:"https://www.w3.org/Style/CSS/Overview.en.html"/>
-<link href:"https://www.w3schools.com/js/default.asp"/>
+<a href:"https://www.w3.org/TR/html/">Link to page: HTML</a>
+<a href:"https://www.w3.org/Style/CSS/Overview.en.html">Link to page: CSS</a>
+<a href:"https://www.w3schools.com/js/default.asp">Link to page: JavaScript</a>
 
 ### Bootstrap
 This project uses Bootstrap as a framework to assist in page layout, navigation, modal and carousel features.
-<link href="https://getbootstrap.com/" />
+<a href:"">Link to page</a><link href="https://getbootstrap.com/" />
 
 ### Cloud9
 This project was written on Cloud9.
-<link href="https://c9.io/login" />
+<a href:"">Link to page</a> <link href="https://c9.io/login" />
 
 ### JQuery
 This project uses JQuery to assist in execution of bootstrap and javaScript features, particularly the modal element.
-<link href="https://jquery.com/" />
+<a href:"">Link to page</a><link href="https://jquery.com/" />
 
 ### FontAwesome
 FontAwesome was used to get social link icons for facebook, twitter and youtube.
-<link href="https://fontawesome.com/" />
+<a href:"">Link to page</a><link href="https://fontawesome.com/" />
 
 ### Google Fonts
 Main theme font "Kavoon" was taken from Google fonts.
-<link href="https://fonts.google.com/" />
+<a href:"">Link to page</a><link href="https://fonts.google.com/" />
 
 ### GitHub
 Local git repository was pushed to remote repository on GitHub and site was published using GitHub pages.
-<link href:"https://github.com/"/>
+<a href:"">Link to page</a><link href:"https://github.com/"/>
 
 ## Testing
 ### Testing my user stories 

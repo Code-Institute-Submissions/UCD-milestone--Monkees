@@ -5,6 +5,7 @@ samples of their music and links to external sites to buy tickets or merchandise
 It also allows fans to sign up to their newsletter or enquire about booking the band.
 
 This webpage was created as part of Code Institute's Software Diploma. 
+<br> It can be viewed at : https://kmaaallen.github.io/UCD-milestone--Monkees/.
 
 
 ## UX
@@ -22,7 +23,7 @@ venue would generate revenue.
 
 During project development I also created some wireframes for my project. My initial wireframes changed after some feedback on
 the dark color scheme and some changes in layout. The final layout is also slightly different as issues arose during development.
-Both sets of wireframes have been included in These can be viewed under <link href="/Documents/Project Development/WireFrames" type="text/css" />.
+Both sets of wireframes have been included in These can be viewed under the documents folder: /Documents/Project Development/WireFrames" type="text/css.
 
 ## Features
 ### Existing Features
@@ -36,9 +37,6 @@ This link is available in the fixed footer on large and medium screen sizes and 
 to make it more visually pleasing and avoid over crowding in mobile view. 
 The sign up link can also be accessed from the "Never miss the news again!" banner on the home page.
 The link displays a white underline when hovered on (in all locations: nav,footer and main page) to indicate it is a link and for consistency.
-****
-need to fix a few issues here before completing this feature section
-****
 
 #### Feature 3 - Embedded video link
 A 'latest video' is embedded into the homepage which users can press play and pause on at any time to view
@@ -52,9 +50,8 @@ can fill out the query form or check the calendar for the band's availability.
 The fixed footer displays links to facebook, twitter and youtube channels for the band. The icons are from FontAwesome and change 
 color when hovered over to indicate they are a link.
 These icons remain to the right of the footer on larger screen sizes and move to the center for prominence in mobile view.
-****
 When clicked on these links take the user to external social media sites in a new tab. 
-****
+
 #### Feature 6 - Carousel of images of the band at top of 'About' page
 ****
 NOT READY YET
@@ -81,6 +78,8 @@ if it is available and if not to see why not - i.e "booked for private event" or
 Current music page only plays samples. Would be better to have official merchandise shop element here underneath or add a link to Amazon or another retailer
 so users can buy the records after listening.
 
+#### Feature 3 - Sign up modal and contact form
+The addition of a thank you message would benefit the user here. i.e "Thank you, your enquiry has been submitted."
 
 
 ## Technologies Used
@@ -124,7 +123,7 @@ USER STORY 1: As a fan of the band I want to get the latest news / gig info so t
 1) On homepage croll down to 'Never miss the news again' section
 2) Click on 'Sign up' link to verify modal appears with sign up form
 3) Enter email address in email field and confirm form checks for validity of email address.
-4) Press submit button and confirm sign up message is displayed ****
+4) Press submit button and confirm modal closes after completion of sign up.
 5) Repeat this test for 'sign up' links in footer (desktop) on each page and navigation bar (mobile) for each page of site.
 
 USER STORY 2:As a fan of the band I want to hear the latest music so I can keep up to date with their next album.
@@ -138,8 +137,7 @@ USER STORY 3: As a event planner I want to check availability and contact the ba
 2) Click on link and verify it takes you to 'book' page
 3) Enter email, number and query into the relevant fields and verify form checks for validity of email address and requires all
 fields to be filled before allowing submission.
-4) Check submission confirmation message is displayed ****
-5) Repeat this test initiating from the 'book' link in navigation bar (desktop) and initiating from the 'book' link in dropdown
+4) Repeat this test initiating from the 'book' link in navigation bar (desktop) and initiating from the 'book' link in dropdown
 menu (mobile).
 
 USER STORY 4: As a member of the public I want to find out about the band and listen to some samples so that I can decide if 
@@ -155,16 +153,17 @@ venue would generate revenue.
 2) Verify each link opens a new tab to the relevant social platform (ie. facebook link opens The Monkees facebook group in new tab etc.).
 
 ## Deployment
-
+This page has been deployed using GitHub Pages and can be viewed at : https://kmaaallen.github.io/UCD-milestone--Monkees/
 
 ## Credits
 ### Content
-All content regarding The Monkees in the 'about' page was paraphrased from the wikipedia pages referenced in the project
-documentation. These references can be accessed here: <link href:"/Documents/Referencing/Information references"/>
+All content regarding The Monkees in the 'about' page was taken from the wikipedia pages referenced in the project
+documentation. These references can be accessed in the documents folder under 'Referencing' 
+<br> /Documents/Referencing/Information references
 
 ### Media
 Images, audio and video were provided by Code Institute and can be accessed here:
-<link href:"https://github.com/Code-Institute-Org/project-assets"/>
+<br> https://github.com/Code-Institute-Org/project-assets"
 
 Additional images were sourced from google images and filtered by ****
 

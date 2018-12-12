@@ -305,7 +305,7 @@ h1 .latest-news {
     font-weight: 700;
 }
 
-/*------------------------------------------------ Modal ------- */
+/*------------------------------------------------ Modals ------- */
 
 .btn-default {
     color: #fff;
@@ -358,6 +358,16 @@ h1 .latest-news {
 
 .row {
     margin: 0;
+}
+
+#QueryModal{
+    font-weight:500;
+    font-size:20px;
+}
+
+#thankyouModal{
+    font-weight:500;
+    font-size:20px;
 }
 
 /*---------------------------------------------------- audio-section */

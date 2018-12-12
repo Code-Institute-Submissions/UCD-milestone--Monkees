@@ -175,7 +175,7 @@ button {
     padding-left: 0;
 }
 
-/*-------------------------------------- main image styling */
+/*-------------------------------------- HOMEPAGE styling */
 
 .index-image {
     padding-top: 50px;
@@ -233,6 +233,10 @@ h1 .latest-news {
     font-size: 20px;
     color: #ffffff;
     text-align: center;
+}
+
+.ticket-link:hover{
+    text-decoration:underline;
 }
 
 .video-title {

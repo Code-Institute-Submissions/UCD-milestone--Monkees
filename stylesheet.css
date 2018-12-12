@@ -305,15 +305,34 @@ h1 .latest-news {
     font-weight: 700;
 }
 
-.btn-success {
+/*------------------------------------------------ Modal ------- */
+
+.btn-default {
     color: #fff;
     font-family: "Kavoon", sans-serif;
     background-color: #F2AD08;
     border-color: #F2AD08;
     width: 100px;
 }
+.btn-default:hover {
+    color: #fff;
+    background-color: #AAE748;
+    border-color: #AAE748;
+}
+.btn-default:active{
+    background-color: #AAE748;
+    border-color: #AAE748;
+    color: #fff;
+}
 
-.btn-success:hover {
+.btn-default:active:hover{
+    background-color: #AAE748;
+    border-color: #AAE748;
+    color: #fff;
+}
+
+.btn-default:focus {
+    color: #fff;
     background-color: #AAE748;
     border-color: #AAE748;
 }

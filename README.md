@@ -71,36 +71,98 @@ The form checks for a valid email address when entered and all fields are requir
 This is a calendar created with HTML and CSS. It is not currently interactive and the two month view merely allows users to check
 if the band is available on certain dates (as unavailable dates are blocked out in contrasting pink colour).
 
-#### Feature 8
-#### Feature 8
-#### Feature 8
-#### Feature 8
-#### Feature 8
 
 ### Features Left to Implement
-#### Feature 1 - 
-#### Feature 1 - 
-#### Feature 1 - 
-#### Feature 1 - 
-#### Feature 1 - 
+#### Feature 1 - Add functionality to calendar
+I would like to add javascript to the calendar so the user can change from month to month and click on individual days to see
+if it is available and if not to see why not - i.e "booked for private event" or similar.
+
+#### Feature 2 - Merchandise feature
+Current music page only plays samples. Would be better to have official merchandise shop element here underneath or add a link to Amazon or another retailer
+so users can buy the records after listening.
+
+
 
 ## Technologies Used
 
-### HTML
-### CSS
+### HTMl, CSS and Javascript
+Used as base languages to write and style webpages.
+<link href:"https://www.w3.org/TR/html/"/>
+<link href:"https://www.w3.org/Style/CSS/Overview.en.html"/>
+<link href:"https://www.w3schools.com/js/default.asp"/>
 ### Bootstrap
+This project uses Bootstrap as a framework to assist in page layout, navigation, modal and carousel features.
+<link href="https://getbootstrap.com/" />
 ### Cloud9
-
+This project was written on Cloud9.
+<link href="https://c9.io/login" />
+### JQuery
+This project uses JQuery to assist in execution of bootstrap and javaScript features, particularly the modal element.
+<link href="https://jquery.com/" />
+### FontAwesome
+FontAwesome was used to get social link icons for facebook, twitter and youtube.
+<link href="https://fontawesome.com/" />
+### Google Fonts
+Main theme font "Kavoon" was taken from Google fonts.
+<link href="https://fonts.google.com/" />
+### GitHub
+Local git repository was pushed to remote repository on GitHub and site was published using GitHub pages.
+<link href:"https://github.com/"/>
 
 ## Testing
+### Testing my user stories 
+USER STORY 1: As a fan of the band I want to get the latest news / gig info so that I can buy tickets to the next show.
+1) Go to the site and scroll down to the latest news section.
+2) View upcoming tour dates, click on 'here' link to buy tickets and verify it takes you to a buy tickets page in a new tab.
+(The 'buy ticket' page is not a real webpage, it is a blank mock up to demonstrate link works for the purposes of this project).
 
+1) On homepage croll down to 'Never miss the news again' section
+2) Click on 'Sign up' link to verify modal appears with sign up form
+3) Enter email address in email field and confirm form checks for validity of email address.
+4) Press submit button and confirm sign up message is displayed ****
+5) Repeat this test for 'sign up' links in footer (desktop) on each page and navigation bar (mobile) for each page of site.
+
+USER STORY 2:As a fan of the band I want to hear the latest music so I can keep up to date with their next album.
+1) Click on 'music' link on fixed navigation bar (desktop) and verify it takes you to music page.
+2) Click on play button for an audio clip and confirm audio plays. Verify pause, stop and volume controls work.
+3) Repeat for each audio clip
+4) Repeat this test in mobile layout (music link in drop down menu)
+
+USER STORY 3: As a event planner I want to check availability and contact the band so that I can book them for an event.
+1) From the homepage scroll down to 'Book the band' link
+2) Click on link and verify it takes you to 'book' page
+3) Enter email, number and query into the relevant fields and verify form checks for validity of email address and requires all
+fields to be filled before allowing submission.
+4) Check submission confirmation message is displayed ****
+5) Repeat this test initiating from the 'book' link in navigation bar (desktop) and initiating from the 'book' link in dropdown
+menu (mobile).
+
+USER STORY 4: As a member of the public I want to find out about the band and listen to some samples so that I can decide if 
+I like the band.
+1) From home page click on 'about' link in navigation bar (desktop) or dropdown menu (mobile) and verify it takes you to 'about' page
+2) From any page click on 'music' link in navigation bar (desktop) or dropdown menu (mobile) and verify it takes you to 'music' page.
+3) Audio tested in user story 2 above.
+4) Repeat to test links on all pages.
+
+USER STORY 5: As a venue I want to see the bands fanbase (i.e social presence) so that I can see if booking them for a 
+venue would generate revenue.
+1) From any page click on each social link (facebook, twitter, youtube) in the footer. 
+2) Verify each link opens a new tab to the relevant social platform (ie. facebook link opens The Monkees facebook group in new tab etc.).
 
 ## Deployment
 
 
 ## Credits
 ### Content
+All content regarding The Monkees in the 'about' page was paraphrased from the wikipedia pages referenced in the project
+documentation. These references can be accessed here: <link href:"/Documents/Referencing/Information references"/>
 
 ### Media
+Images, audio and video were provided by Code Institute and can be accessed here:
+<link href:"https://github.com/Code-Institute-Org/project-assets"/>
+
+Additional images were sourced from google images and filtered by ****
 
 ### Acknowledgements
+I received inspiration for this project colour scheme from an album of The Monkees titled "The Definitive Monkees" released 
+in 2001, a copy of which I own.

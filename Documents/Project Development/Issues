@@ -8,7 +8,7 @@ ABOUT
 
 MUSIC
 1) page a bit empty at the moment - maybe have a 'shop' element beneath album samples?
-2) audio clips only play for about 2 seconds
+
 
 
 
@@ -17,12 +17,11 @@ MUSIC
 
 
 BOOK
-1) button on sign up form does weird grey fill after being clicked.
+
 2) fields have odd yellow fill color.
 
 
 EVERYWHERE:
 
-2) sign up modal needs to check for valid email address and have something for user to know it has worked.
 
 

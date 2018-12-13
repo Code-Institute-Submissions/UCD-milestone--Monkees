@@ -379,7 +379,10 @@ audio {
     width: 200px;
     display: block;
     transform: translateY(100px);
+    position:relative;
+    z-index:1;
 }
+
 
 .album-image {
     height: 200px;
@@ -437,7 +440,7 @@ audio {
         }
 }
 
-        /*---------------------------------------------------- about section */
+/*---------------------------------------------------- about section */
         #about-band {
             padding-top: 10px;
         }
@@ -527,7 +530,7 @@ audio {
             }
         }
 
-        /*---------------------------------------------------- whats new section
+/*---------------------------------------------------- whats new section
 
 .row {
     margin: 0;

@@ -53,9 +53,9 @@ These icons remain to the right of the footer on larger screen sizes and move to
 When clicked on these links take the user to external social media sites in a new tab. 
 
 #### Feature 6 - Carousel of images of the band at top of 'About' page
-****
-NOT READY YET
-****
+These large images display black and white photographs of the band to capture attention.
+Users can let the carousel play or select the left and right glyphicons or the navigation dots beneath the images to move through the carousel.
+
 #### Feature 7 - Embedded audio files on 'music' page
 Four songs from The Monkees are embedded in the 'Music' page which users can choose to play and pause at any time to listen
 to a selection of hits from the band.
@@ -165,7 +165,14 @@ documentation. These references can be accessed in the documents folder under 'R
 Images, audio and video were provided by Code Institute and can be accessed here:
 <br> https://github.com/Code-Institute-Org/project-assets
 
-Additional images were sourced from google images and filtered by ****
+Additional images were sourced from google images and filtered by the advanced search. Only images "free to use, share or modify, even commercially"
+were selected.
+The three images from the carousel on the 'About' page were sourced in this way. Links to the origin of these images are below:
+<br>https://upload.wikimedia.org/wikipedia/commons/e/ed/The_Monkees.jpg
+<br>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/The_Monkees_May_1967.jpg/800px-The_Monkees_May_1967.jpg
+<br>https://upload.wikimedia.org/wikipedia/commons/e/ee/The_Monkees_1967.jpg
+<br>The generic band image used as a background image for 'Book the band' link on homepage was also found this way, image source below:
+<br>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg7BHEw41onOuDsiCJ9753kv-lLAAz1fDzhTGiMH-F2oZFn3w8Mw
 
 ### Acknowledgements
 I received inspiration for this project colour scheme from an album of The Monkees titled "The Definitive Monkees" released 

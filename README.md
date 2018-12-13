@@ -163,7 +163,7 @@ documentation. These references can be accessed in the documents folder under 'R
 
 ### Media
 Images, audio and video were provided by Code Institute and can be accessed here:
-<br> https://github.com/Code-Institute-Org/project-assets"
+<br> https://github.com/Code-Institute-Org/project-assets
 
 Additional images were sourced from google images and filtered by ****
 

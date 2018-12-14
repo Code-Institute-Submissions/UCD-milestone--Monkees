@@ -63,6 +63,7 @@ to a selection of hits from the band.
 #### Feature 8 - 'Contact Us' form on 'Book' page
 This form allows users to submit a query by filling out the email, contact number and query fields and submit their enquiry.
 The form checks for a valid email address when entered and all fields are required (the enquiry cannot be submitted unless all fields are completed).
+The number field input is also restricted to number entries only. 
 
 #### Feature 9 - Calendar of availability on 'Book' page
 This is a calendar created with HTML and CSS. It is not currently interactive and the two month view merely allows users to check
@@ -160,6 +161,9 @@ This page has been deployed using GitHub Pages and can be viewed at : https://km
 All content regarding The Monkees in the 'about' page was taken from the wikipedia pages referenced in the project
 documentation. These references can be accessed in the documents folder under 'Referencing' 
 <br> /Documents/Referencing/Information references
+
+The code snippet in stylesheet.css to hide the spin icon in number field of form was taken from Stack Overflow (commented). 
+<br> This is the link : https://stackoverflow.com/questions/3790935/can-i-hide-the-html5-number-input-s-spin-box
 
 ### Media
 Images, audio and video were provided by Code Institute and can be accessed here:

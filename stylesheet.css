@@ -254,6 +254,13 @@ h1 .latest-news {
     width: 90%;
 }
 
+@media (max-width:991px){
+    .index-video{
+        margin-left:0px;
+        width:100%;
+    }
+}
+
 .video-tagline {
     color: #fff;
     font-family: "Kavoon", sans-serif;

@@ -441,10 +441,6 @@ audio {
 
 /*---------------------------------------------------- about section */
 
-#about-band {
-    padding-top: 10px;
-}
-
 .about-img {
     margin-bottom: -60px;
 }
@@ -489,8 +485,6 @@ audio {
         font-family: "Kavoon", sans-serif;
         font-weight: 400;
         margin-left: 25px;
-        transform: translateY(75px);
-        margin-bottom: 40px;
     }
 }
 

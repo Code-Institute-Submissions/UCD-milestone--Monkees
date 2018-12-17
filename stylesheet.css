@@ -383,11 +383,6 @@ audio {
     z-index: 1;
 }
 
-.last-audio {
-    padding-bottom: 60px;
-}
-
-
 .album-image {
     height: 200px;
     width: 200px;

@@ -751,6 +751,12 @@ input[type="number"] {
     color: #fff;
 }
 
+@media (max-width:991px){
+    .container-calendar{
+        margin-top:50px;
+    }
+}
+
 .calendar-text {
     font-family: "Kavoon", sans-serif;
     color: #fff;

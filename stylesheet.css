@@ -400,12 +400,30 @@ audio {
     transform: translateY(100px);
 }
 
+@media (max-width:768px){
+    .albumn-name{
+        transform: translateY(50px);
+    }
+    .album-image{
+        transform: translateY(50px);
+    }
+    audio{
+        transform: translateY(50px);
+    }
+}
+
 .music-header {
     font-family: "Kavoon", sans-serif;
     font-weight: 600;
     color: #ffffff;
     text-align: center;
     padding-top: 100px;
+}
+
+@media (max-width:768px){
+    .music-header{
+        padding-top:60px;
+    }
 }
 
 /*---------------------------------------------------- about section CAROUSEL */

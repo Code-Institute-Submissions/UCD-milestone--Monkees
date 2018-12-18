@@ -4,3 +4,4 @@
 ## Colour scheme is a bit bright
 ## Audio control at bottom in mobile view is covered by footer - can't access / play audio
 ## Left and Right controls not working for carousel of images.
+-Fixed 18/12/18 id's not set properly for carousel - now working on all browsers.

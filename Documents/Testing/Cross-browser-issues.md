@@ -8,7 +8,7 @@ Internet Explorer
 ## Left and Right controls for carousel on 'about' page not functioning
 All browsers - - Fixed 18/12/18 id's not set properly for carousel - now working on all browsers.
 ## Carousel doesn't start playing automatically when page opens
-Firefox
+Firefox - non-issue - testing browser was too slow - carousel now playing automatically in firefox 18/12/18
 ## Control dots for carousel (to select images) do not function
 All browsers - Fixed 18/12/18 id's not set properly for carousel - now working on all browsers.
 ## Audio controls overlapping song title in medium screen size

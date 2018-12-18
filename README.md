@@ -115,6 +115,16 @@ Main theme font "Kavoon" was taken from Google fonts.
 Local git repository was pushed to remote repository on GitHub and site was published using GitHub pages.
 <br>https://github.com/
 
+### W3C HTML and CSS online validators
+Online validators were used to check code was valid for both HTML and CSS.
+HTML validator: https://validator.w3.org
+CSS Validator: http://jigsaw.w3.org/css-validator/
+
+### Autoprefix tool
+This online autoprefix tool was used to check when vendor pre-fixes were necessary. This was used after my cross-browser testing
+to identify issues and fix bugs.
+Available at : https://autoprefixer.github.io/
+
 ## Testing
 ### Testing my user stories 
 Testing documentation regarding user stories and cross-browser testing can be viewed at:

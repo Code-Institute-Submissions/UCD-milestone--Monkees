@@ -750,12 +750,19 @@ input[type="number"] {
     font-size: 15px;
     color: #fff;
 }
-
 @media (max-width:991px){
-    .container-calendar{
+    .container.calendar{
         margin-top:50px;
     }
 }
+
+@media (min-width: 992px){
+.col-md-6 {
+    width: 50%;
+    padding-left: 70px;
+}
+}
+
 
 .calendar-text {
     font-family: "Kavoon", sans-serif;

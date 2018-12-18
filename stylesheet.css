@@ -750,28 +750,36 @@ input[type="number"] {
     font-family: "Kavoon", sans-serif;
     font-size: 15px;
     color: #fff;
-    padding-left:100px;
+    padding-left: 100px;
 }
 
 @media (max-width:991px) {
     .container.calendar {
         margin-top: 50px;
-        padding-left:100px;
+        padding-left: 100px;
     }
 }
 
 @media (max-width:768px) {
     .container.calendar {
         margin-top: 50px;
-        padding-left:15px;
+        padding-left: 0px;
+        margin-left: 50px;
     }
 }
 
+@media (max-width:414px) {
+    .container.calendar {
+        margin-top: 50px;
+        padding-left: 15px;
+        margin-left: 0px;
+    }
+}
 
 @media (min-width:992px) {
     .container.calendar {
         margin-top: 110px;
-        padding-left:100px;
+        padding-left: 100px;
     }
 }
 
@@ -793,15 +801,16 @@ td {
 }
 
 @media (max-width:360px) {
-    table, td {
-    border: 1px solid white;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-    color: #000;
-    background-color: #AAE748;
-    font-family: "Kavoon", sans-serif;
-    font-size: 10px;
-}
+    table,
+    td {
+        border: 1px solid white;
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+        color: #000;
+        background-color: #AAE748;
+        font-family: "Kavoon", sans-serif;
+        font-size: 10px;
+    }
 }
 
 .month-year {

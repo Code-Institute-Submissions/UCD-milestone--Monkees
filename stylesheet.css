@@ -254,10 +254,10 @@ h1 .latest-news {
     width: 90%;
 }
 
-@media (max-width:991px){
-    .index-video{
-        margin-left:0px;
-        width:100%;
+@media (max-width:991px) {
+    .index-video {
+        margin-left: 0px;
+        width: 100%;
     }
 }
 
@@ -294,7 +294,7 @@ h1 .latest-news {
 }
 
 #book-the-band-img {
-    background-image:url("Assets/Images/googleImages/empty-stage.png");
+    background-image: url("Assets/Images/googleImages/empty-stage.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -407,14 +407,14 @@ audio {
     transform: translateY(100px);
 }
 
-@media (max-width:768px){
-    .albumn-name{
+@media (max-width:768px) {
+    .albumn-name {
         transform: translateY(50px);
     }
-    .album-image{
+    .album-image {
         transform: translateY(50px);
     }
-    audio{
+    audio {
         transform: translateY(50px);
     }
 }
@@ -427,9 +427,9 @@ audio {
     padding-top: 100px;
 }
 
-@media (max-width:768px){
-    .music-header{
-        padding-top:60px;
+@media (max-width:768px) {
+    .music-header {
+        padding-top: 60px;
     }
 }
 
@@ -729,6 +729,7 @@ label {
 }
 
 /*---------------Code snippet taken from Stack Overflow to hide spinner in number field in contact form-----*/
+
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -749,20 +750,30 @@ input[type="number"] {
     font-family: "Kavoon", sans-serif;
     font-size: 15px;
     color: #fff;
+    padding-left:100px;
 }
-@media (max-width:991px){
-    .container.calendar{
-        margin-top:50px;
+
+@media (max-width:991px) {
+    .container.calendar {
+        margin-top: 50px;
+        padding-left:100px;
     }
 }
 
-@media (min-width: 992px){
-.col-md-6 {
-    width: 50%;
-    padding-left: 70px;
-}
+@media (max-width:768px) {
+    .container.calendar {
+        margin-top: 50px;
+        padding-left:15px;
+    }
 }
 
+
+@media (min-width:992px) {
+    .container.calendar {
+        margin-top: 110px;
+        padding-left:100px;
+    }
+}
 
 .calendar-text {
     font-family: "Kavoon", sans-serif;
@@ -779,7 +790,18 @@ td {
     background-color: #AAE748;
     font-family: "Kavoon", sans-serif;
     font-size: 15px;
+}
 
+@media (max-width:360px) {
+    table, td {
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    color: #000;
+    background-color: #AAE748;
+    font-family: "Kavoon", sans-serif;
+    font-size: 10px;
+}
 }
 
 .month-year {

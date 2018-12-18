@@ -117,49 +117,8 @@ Local git repository was pushed to remote repository on GitHub and site was publ
 
 ## Testing
 ### Testing my user stories 
-USER STORY 1: As a fan of the band I want to get the latest news / gig info so that I can buy tickets to the next show.
-Test 1: View tour dates and buy tickets
-1) Go to the site and scroll down to the latest news section.
-2) View upcoming tour dates, click on 'here' link to buy tickets and verify it takes you to a buy tickets page in a new tab.
-(The 'buy ticket' page is not a real webpage, it is a blank mock up to demonstrate link works for the purposes of this project).
-
-Test 2: Sign up to newsletter
-1) On homepage croll down to 'Never miss the news again' section
-2) Click on 'Sign up' link to verify modal appears with sign up form
-3) Enter email address in email field and confirm form checks for validity of email address.
-4) Press submit button and confirm modal closes after completion of sign up.
-5) Repeat this test for 'sign up' links in footer (desktop) on each page and navigation bar (mobile) for each page of site.
-
-USER STORY 2:As a fan of the band I want to hear the latest music so I can keep up to date with their next album.
-Test 1: Listen to song samples
-1) Click on 'music' link on fixed navigation bar (desktop) and verify it takes you to music page.
-2) Click on play button for an audio clip and confirm audio plays. Verify pause, stop and volume controls work.
-3) Repeat for each audio clip
-4) Repeat this test in mobile layout (music link in drop down menu)
-
-USER STORY 3: As a event planner I want to check availability and contact the band so that I can book them for an event.
-Test 1: Enquire about availability
-1) From the homepage scroll down to 'Book the band' link
-2) Click on link and verify it takes you to 'book' page
-3) Enter email, number and query into the relevant fields and verify form checks for validity of email address and only number submitted in number field and requires all
-fields to be filled before allowing submission.
-4) Repeat this test initiating from the 'book' link in navigation bar (desktop) and initiating from the 'book' link in dropdown
-menu (mobile).
-
-USER STORY 4: As a member of the public I want to find out about the band and listen to some samples so that I can decide if 
-I like the band.
-Test 1: Navigate to 'about' page and 'music' page to hear samples
-1) From home page click on 'about' link in navigation bar (desktop) or dropdown menu (mobile) and verify it takes you to 'about' page
-2) From any page click on 'music' link in navigation bar (desktop) or dropdown menu (mobile) and verify it takes you to 'music' page.
-3) Audio tested in user story 2 above.
-4) Repeat to test links on all pages.
-
-USER STORY 5: As a venue I want to see the bands fanbase (i.e social presence) so that I can see if booking them for a 
-venue would generate revenue.
-Test 1: Test links to social pages work
-1) From any page click on each social link (facebook, twitter, youtube) in the footer. 
-2) Verify each link opens a new tab to the relevant social platform (ie. facebook link opens The Monkees facebook group in new tab etc.).
-3) Repeat for each social link on each page.
+Testing documentation regarding user stories and cross-browser testing can be viewed at:
+<br> https://github.com/kmaaallen/UCD-milestone--Monkees/blob/master/Documents/Testing/TESTING.docx
 
 ## Deployment
 This page has been deployed using GitHub Pages and can be viewed at : https://kmaaallen.github.io/UCD-milestone--Monkees/

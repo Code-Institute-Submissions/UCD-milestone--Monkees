@@ -442,6 +442,10 @@ audio {
     margin: 50px auto;
 }
 
+.carousel-indicators{
+  z-index:1;
+}
+
 .carousel-control.left {
     background-image: none;
 }
@@ -831,7 +835,7 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #F2AD08;
-    z-index: 1;
+    z-index: 2;
 }
 
 .sign-up-link {

@@ -2,16 +2,16 @@
 ## Audio not displaying - 'Error' message only in audio controls box on both Mobile and Desktop
 Internet Explorer
 ## Last audio control box covered by footer in mobile view - inaccessible
-Internet Explorer, Safari, Firefox
+Internet Explorer, Safari, Firefox - FIXED 18/12/18, wrapped last audio in div and added padding
 ## Video audio not playing
 Internet Explorer
 ## Left and Right controls for carousel on 'about' page not functioning
-All browsers - - Fixed 18/12/18 id's not set properly for carousel - now working on all browsers.
+All browsers - - FIXED 18/12/18 id's not set properly for carousel - now working on all browsers.
 ## Carousel doesn't start playing automatically when page opens
-Firefox - non-issue - testing browser was too slow - carousel now playing automatically in firefox 18/12/18
+Firefox - NON-ISSUE - testing browser was too slow - carousel now playing automatically in firefox 18/12/18
 ## Control dots for carousel (to select images) do not function
-All browsers - Fixed 18/12/18 id's not set properly for carousel - now working on all browsers.
+All browsers - FIXED 18/12/18 id's not set properly for carousel - now working on all browsers.
 ## Audio controls overlapping song title in medium screen size
-Safari
+Safari - FIXED 18/12/18 Typo in media query in 'album-name' class
 ## Calendar margins still off on medium screen size and horizontal scroll has appeared
 Safari

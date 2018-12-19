@@ -847,11 +847,11 @@ input[type="number"] {
 
 table,
 td {
-    border: 1px solid white;
+    border: 1px solid black;
     text-align: center;
     padding: 15px 15px 15px 15px;
     color: #000;
-    background-color: #AAE748;
+    background-color: #fff;
     font-family: "Kavoon", sans-serif;
     font-size: 15px;
 }
@@ -859,11 +859,11 @@ td {
 @media (max-width:360px) {
     table,
     td {
-        border: 1px solid white;
+        border: 1px solid black;
         text-align: center;
         padding: 10px 10px 10px 10px;
         color: #000;
-        background-color: #AAE748;
+        background-color: #fff;
         font-family: "Kavoon", sans-serif;
         font-size: 10px;
     }

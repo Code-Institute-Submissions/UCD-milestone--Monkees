@@ -392,9 +392,9 @@ audio {
     z-index: 1;
 }
 
-.last-audio{
-        padding-bottom:100px;
-    }
+.last-audio {
+    padding-bottom: 100px;
+}
 
 .album-image {
     height: 200px;
@@ -518,6 +518,7 @@ audio {
     color: #fff;
     font-family: "Kavoon", sans-serif;
     font-weight: 400;
+    font-size: 20px;
     width: 90%;
     display: inline-block;
     padding-bottom: 40px;
@@ -554,6 +555,7 @@ audio {
 .band-p {
     color: #fff;
     font-family: "Kavoon", sans-serif;
+    font-size: 20px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 25px;
@@ -661,6 +663,7 @@ audio {
     width: 80%;
     color: #fff;
     font-family: "Kavoon", sans-serif;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -691,7 +694,7 @@ audio {
     width: 50%;
     height: 34px;
     padding: 6px 12px;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.5;
     color: #555;
     background-color: #fff;
@@ -738,7 +741,8 @@ label {
     display: inline-block;
     max-width: 50%;
     margin-bottom: 5px;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 20px;
     font-family: "Kavoon", sans-serif;
     color: #fff;
 }
@@ -768,7 +772,7 @@ input[type="number"] {
     margin-bottom: 100px;
     text-align: center;
     font-family: "Kavoon", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     color: #fff;
     padding-left: 100px;
 }
@@ -798,15 +802,23 @@ input[type="number"] {
 
 @media (min-width:992px) {
     .container.calendar {
-        margin-top: 110px;
+        margin-top: 100px;
         padding-left: 100px;
     }
+}
+
+.calendar h2 {
+    font-family: "Kavoon", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size:36px;
 }
 
 .calendar-text {
     font-family: "Kavoon", sans-serif;
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
+    font-size:20px;
 }
 
 table,

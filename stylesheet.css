@@ -461,9 +461,8 @@ audio {
 .carousel-inner .item {
     transition: transform 2s ease-in-out;
     -webkit-transition: -webkit-transform 2s ease-in-out;
-    -o-transition: transform 2s ease-in-out;  
+    -o-transition: transform 2s ease-in-out;
 }
-
 
 .carousel-indicators {
     z-index: 1;
@@ -787,7 +786,6 @@ input[type="number"] {
 @media (max-width:991px) {
     .container.calendar {
         margin-top: 50px;
-        padding-left: 100px;
     }
 }
 
@@ -795,7 +793,6 @@ input[type="number"] {
     .container.calendar {
         margin-top: 50px;
         padding-left: 0px;
-        margin-left: 50px;
     }
 }
 
@@ -810,124 +807,129 @@ input[type="number"] {
 @media (min-width:992px) {
     .container.calendar {
         margin-top: 100px;
-        padding-left: 100px;
     }
 }
 
-.calendar h2 {
-    font-family: "Kavoon", sans-serif;
-    color: #fff;
-    font-weight: 700;
-    font-size:36px;
+@media (min-width: 768px) {
+    .container.calendar {
+        width: 100%;
+        padding-left:15px;
+    }
 }
 
-.calendar-text {
-    font-family: "Kavoon", sans-serif;
-    color: #fff;
-    font-weight: 500;
-    font-size:20px;
-}
+    .calendar h2 {
+        font-family: "Kavoon", sans-serif;
+        color: #fff;
+        font-weight: 700;
+        font-size: 36px;
+    }
 
-table,
-td {
-    border: 1px solid white;
-    text-align: center;
-    padding: 15px 15px 15px 15px;
-    color: #000;
-    background-color: #AAE748;
-    font-family: "Kavoon", sans-serif;
-    font-size: 15px;
-}
+    .calendar-text {
+        font-family: "Kavoon", sans-serif;
+        color: #fff;
+        font-weight: 500;
+        font-size: 20px;
+    }
 
-@media (max-width:360px) {
     table,
     td {
         border: 1px solid white;
         text-align: center;
-        padding: 10px 10px 10px 10px;
+        padding: 15px 15px 15px 15px;
         color: #000;
         background-color: #AAE748;
         font-family: "Kavoon", sans-serif;
-        font-size: 10px;
+        font-size: 15px;
     }
-}
 
-.month-year {
-    font-weight: bold;
-    text-align: center;
-}
+    @media (max-width:360px) {
+        table,
+        td {
+            border: 1px solid white;
+            text-align: center;
+            padding: 10px 10px 10px 10px;
+            color: #000;
+            background-color: #AAE748;
+            font-family: "Kavoon", sans-serif;
+            font-size: 10px;
+        }
+    }
 
-.background-fill {
-    background-color: #EF6BBC;
-}
-
-
-/*---------------------------------------------------- footer */
-
-footer {
-    position: fixed;
-    height: 50px;
-    bottom: 0;
-    width: 100%;
-    background-color: #F2AD08;
-    z-index: 2;
-}
-
-.sign-up-link {
-    line-height: 50px;
-    color: #ffffff;
-    font-family: "Kavoon", sans-serif;
-}
-
-.sign-up-link:hover {
-    text-decoration: underline;
-}
-
-a:focus,
-a:hover {
-    color: #fff;
-    text-decoration: none;
-}
-
-.social-links {
-    line-height: 50px;
-    text-align: right;
-}
-
-@media (max-width:768px) {
-    .social-links {
-        line-height: 25px;
+    .month-year {
+        font-weight: bold;
         text-align: center;
     }
-}
 
-@media (max-width:992px) {
-    .social-links {
-        line-height: 25px;
-        text-align: center;
+    .background-fill {
+        background-color: #EF6BBC;
     }
-}
 
-#follow {
-    color: #ffffff;
-    font-family: "Kavoon", sans-serif;
-}
 
-.fa {
-    color: #F2AD08;
-    background-color: #ffffff;
-    text-align: center;
-    margin: 0px;
-    width: 32px;
-    height: 32px;
-    padding: 6px 0 6px 0;
-    border-radius: 50%;
-    transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-}
+    /*---------------------------------------------------- footer */
+    footer {
+        position: fixed;
+        height: 50px;
+        bottom: 0;
+        width: 100%;
+        background-color: #F2AD08;
+        z-index: 2;
+    }
 
-.fa:hover {
-    background-color: #EF6BBC;
-}
+    .sign-up-link {
+        line-height: 50px;
+        color: #ffffff;
+        font-family: "Kavoon", sans-serif;
+    }
+
+    .sign-up-link:hover {
+        text-decoration: underline;
+    }
+
+    a:focus,
+    a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .social-links {
+        line-height: 50px;
+        text-align: right;
+    }
+
+    @media (max-width:768px) {
+        .social-links {
+            line-height: 25px;
+            text-align: center;
+        }
+    }
+
+    @media (max-width:992px) {
+        .social-links {
+            line-height: 25px;
+            text-align: center;
+        }
+    }
+
+    #follow {
+        color: #ffffff;
+        font-family: "Kavoon", sans-serif;
+    }
+
+    .fa {
+        color: #F2AD08;
+        background-color: #ffffff;
+        text-align: center;
+        margin: 0px;
+        width: 32px;
+        height: 32px;
+        padding: 6px 0 6px 0;
+        border-radius: 50%;
+        transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+    }
+
+    .fa:hover {
+        background-color: #EF6BBC;
+    }

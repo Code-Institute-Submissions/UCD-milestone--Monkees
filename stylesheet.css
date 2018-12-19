@@ -460,7 +460,10 @@ audio {
 
 .carousel-inner .item {
     transition: transform 2s ease-in-out;
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+    -o-transition: transform 2s ease-in-out;  
 }
+
 
 .carousel-indicators {
     z-index: 1;

@@ -9,3 +9,4 @@
 ## Left and Right controls not working for carousel of images.
 -Fixed 19/12/18 id's not set properly for carousel - now working on all browsers.
 ## Unclear which dates are 'highlighted' as unavailable in calendar
+-Fixed 20/12/18 lime green background calendar removed

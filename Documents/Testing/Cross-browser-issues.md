@@ -1,10 +1,10 @@
 # Issues raised by cross browser testing 18/12/18 and resolutions if possible
 ## Audio not displaying - 'Error' message only in audio controls box on both Mobile and Desktop
-Internet Explorer
+Internet Explorer - NON-ISSUE - browserling tester did not support audio - tested on another IE and worked fine 18/12/18
 ## Last audio control box covered by footer in mobile view - inaccessible
 Internet Explorer, Safari, Firefox - FIXED 18/12/18, wrapped last audio in div and added padding
 ## Video audio not playing
-Internet Explorer
+Internet Explorer - NON-ISSUE - browserling tester did not support audio - tested on another IE and worked fine 18/12/18
 ## Left and Right controls for carousel on 'about' page not functioning
 All browsers - - FIXED 18/12/18 id's not set properly for carousel - now working on all browsers.
 ## Carousel doesn't start playing automatically when page opens

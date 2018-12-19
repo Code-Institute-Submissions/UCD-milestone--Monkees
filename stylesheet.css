@@ -458,6 +458,10 @@ audio {
     margin: 50px auto;
 }
 
+.carousel-inner .item {
+    transition: transform 2s ease-in-out;
+}
+
 .carousel-indicators {
     z-index: 1;
 }

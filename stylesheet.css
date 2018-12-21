@@ -5,12 +5,24 @@ body {
     background-color: #54B2EC;
 }
 
-/* theme colors----------------
+/* theme colors initial----------------
 pale blue: #54B2EC
 pink: #EF6BBC
 orange: #F2AD08
 lime green: #AAE748
----------------------------------*/
+
+---theme colors second--------*/
+/*
+deep red: #AA231C
+orange: #f2ad08
+blue: rgba(29, 177, 221, 1.0)
+
+darker teal: #107896
+
+and shadow coding with orange shadow:
+    text-shadow: -5px -5px 0 #F2AD12, 0px -1px 0 #F2AD12, -5px 5px 0 #F2AD12, 1px 1px 0 #F2AD12;
+*/
+
 
 /*-------------------------------------- Navbar styling */
 

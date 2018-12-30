@@ -205,9 +205,8 @@ button {
     font-family: "Kavoon", sans-serif;
     font-weight: 700;
     font-size: 75px;
-    color: #ffffff;
+    color: #011627;
     text-align: center;
-    background-color: #011627;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -890,6 +889,7 @@ td {
 .month-year {
     font-weight: bold;
     text-align: center;
+    color: #011627;
 }
 
 .background-fill {

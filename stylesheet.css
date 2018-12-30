@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kavoon: 100, 200, 300, 400, 500, 600, 700');
+@import url('https://fonts.googleapis.com/css?family=Kavoon|Luckiest+Guy|Roboto: 100, 200, 300, 400, 500, 600, 700');
 /*-------------------------------------- body styling */
 
 body {
@@ -23,12 +23,19 @@ and shadow coding with orange shadow:
     text-shadow: -5px -5px 0 #F2AD12, 0px -1px 0 #F2AD12, -5px 5px 0 #F2AD12, 1px 1px 0 #F2AD12;
 */
 
+/*---theme colors third-------
+grey:#E2DEE9
+RED: #BA2E33
+DARK NAVY: #011627
+GREEN: #0F5257
+
+---*/
 
 /*-------------------------------------- Navbar styling */
 
 .navbar {
     display: block;
-    background-color: #EF6BBC;
+    background-color: #BA2E33;
     color: #ffffff;
     font-size: 18px;
     position: fixed;
@@ -108,7 +115,7 @@ and shadow coding with orange shadow:
 
 button {
     border: none;
-    background-color: #EF6BBC;
+    background-color: #BA2E33;
     width: 50px;
     height: 50px;
     color: #fff;
@@ -122,7 +129,7 @@ button {
 
 .dropdownMenu {
     list-style: none;
-    background-color: #EF6BBC;
+    background-color: #BA2E33;
     width: 150px;
     padding-left: 0;
     text-indent: 15px;
@@ -147,7 +154,7 @@ button {
 }
 
 .dropdownItem:hover {
-    background-color: #d760a9;
+    background-color: #99262A;
 }
 
 .dropdownLink:hover {
@@ -161,7 +168,7 @@ button {
 }
 
 .dropdown:hover button {
-    background-color: #d760a9;
+    background-color: #99262A;
 }
 
 .dropdown:hover .dropdownMenu {
@@ -200,7 +207,7 @@ button {
     font-size: 75px;
     color: #ffffff;
     text-align: center;
-    background-color: #AAE748;
+    background-color: #011627;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -224,7 +231,7 @@ h1 .latest-news {
     font-family: "Kavoon", sans-serif;
     font-weight: 500;
     font-size: 30px;
-    color: #ffffff;
+    color: #011627;
     text-align: center;
     margin-top: 0;
 }
@@ -233,7 +240,7 @@ h1 .latest-news {
     font-family: "Kavoon", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    color: #ffffff;
+    color: #011627;
     text-align: center;
     padding-top: 15px;
 }
@@ -243,7 +250,7 @@ h1 .latest-news {
     font-family: "Kavoon", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    color: #ffffff;
+    color: #0f5257;
     text-align: center;
 }
 
@@ -255,7 +262,7 @@ h1 .latest-news {
     font-family: "Kavoon", sans-serif;
     font-weight: 500;
     font-size: 30px;
-    color: #ffffff;
+    color: #011627;
     text-align: center;
     padding-top: 50px;
 }
@@ -274,7 +281,7 @@ h1 .latest-news {
 }
 
 .video-tagline {
-    color: #fff;
+    color: #011627;
     font-family: "Kavoon", sans-serif;
     padding-top: 10px;
     font-size: 20px;
@@ -283,14 +290,13 @@ h1 .latest-news {
 
 
 .container-fluid.newsletter {
-    background-color: #AAE748;
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: "Kavoon", sans-serif;
     font-weight: 700;
     font-size: 30px;
-    color: #ffffff;
+    color: #011627;
     text-align: center;
     margin-bottom: 0;
 }
@@ -329,33 +335,33 @@ h1 .latest-news {
 .btn-default {
     color: #fff;
     font-family: "Kavoon", sans-serif;
-    background-color: #F2AD08;
-    border-color: #F2AD08;
+    background-color: #ba2e33;
+    border-color: #ba2e33;
     width: 100px;
 }
 
 .btn-default:hover {
     color: #fff;
-    background-color: #AAE748;
-    border-color: #AAE748;
+    background-color: #99262A;
+    border-color: #99262A;
 }
 
 .btn-default:active {
-    background-color: #AAE748;
-    border-color: #AAE748;
+    background-color: #99262A;
+    border-color: #99262A;
     color: #fff;
 }
 
 .btn-default:active:hover {
-    background-color: #AAE748;
-    border-color: #AAE748;
+    background-color: #99262A;
+    border-color: #99262A;
     color: #fff;
 }
 
 .btn-default:focus {
     color: #fff;
-    background-color: #AAE748;
-    border-color: #AAE748;
+    background-color: #99262A;
+    border-color:#99262A;
 }
 
 .modal-title {
@@ -363,17 +369,17 @@ h1 .latest-news {
     line-height: 1.42857143;
     font-family: "Kavoon", sans-serif;
     font-size: 30px;
-    color: #F2AD08;
+    color: #011627;
 }
 
 .modal-link {
     font-size: 20px;
-    color: #fff;
+    color: #011627;
     text-decoration: none;
 }
 
 .modal-link:hover {
-    color: #fff;
+    color: #0f5257;
     text-decoration: underline;
 }
 
@@ -422,7 +428,7 @@ audio {
 .album-name {
     font-family: "Kavoon", sans-serif;
     font-weight: 300;
-    color: #ffffff;
+    color: #011627;
     text-align: center;
     -webkit-transform: translateY(100px);
     -ms-transform: translateY(100px);
@@ -450,7 +456,7 @@ audio {
 .music-header {
     font-family: "Kavoon", sans-serif;
     font-weight: 600;
-    color: #ffffff;
+    color: #011627;
     text-align: center;
     padding-top: 100px;
 }
@@ -533,7 +539,7 @@ audio {
 }
 
 .about-text {
-    color: #fff;
+    color: #011627;
     font-family: "Kavoon", sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -545,7 +551,7 @@ audio {
 
 @media (max-width:768px) {
     .about-text {
-        color: #fff;
+        color: #011627;
         font-family: "Kavoon", sans-serif;
         font-weight: 400;
         margin-left: 25px;
@@ -571,7 +577,7 @@ audio {
 }
 
 .band-p {
-    color: #fff;
+    color: #011627;
     font-family: "Kavoon", sans-serif;
     font-size: 20px;
     padding-left: 50px;
@@ -672,14 +678,14 @@ audio {
 /*----------------------------------------------------  book form */
 
 .form-container h1 {
-    color: #fff;
+    color: #011627;
     font-family: "Kavoon", sans-serif;
     font-weight: 700;
 }
 
 .form-text {
     width: 80%;
-    color: #fff;
+    color: #011627;
     font-family: "Kavoon", sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -744,13 +750,13 @@ audio {
     font-family: "Kavoon", sans-serif;
     margin-top: 20px;
     color: #fff;
-    background-color: #AAE748;
+    background-color: #ba2e33;
     border-color: transparent;
     font-weight: 500;
 }
 
 .form-button:hover {
-    background-color: #AAE748;
+    background-color: #99262A;
     color: #fff;
     border-color: transparent;
     font-weight: 700;
@@ -768,11 +774,11 @@ label {
     font-weight: 500;
     font-size: 20px;
     font-family: "Kavoon", sans-serif;
-    color: #fff;
+    color: #011627;
 }
 
 .email-help-book {
-    color: #fff;
+    color:#011627;
     font-family: "Kavoon", sans-serif;
 }
 
@@ -845,24 +851,24 @@ input[type="number"] {
 
 .calendar h2 {
     font-family: "Kavoon", sans-serif;
-    color: #fff;
+    color: #011627;
     font-weight: 700;
     font-size: 36px;
 }
 
 .calendar-text {
     font-family: "Kavoon", sans-serif;
-    color: #fff;
+    color: #011627;
     font-weight: 500;
     font-size: 20px;
 }
 
 table,
 td {
-    border: 1px solid black;
+    border: 1px solid #011627;
     text-align: center;
     padding: 15px 15px 15px 15px;
-    color: #000;
+    color: #011627;
     background-color: #fff;
     font-family: "Kavoon", sans-serif;
     font-size: 15px;
@@ -871,10 +877,10 @@ td {
 @media (max-width:360px) {
     table,
     td {
-        border: 1px solid black;
+        border: 1px solid #011627;
         text-align: center;
         padding: 10px 10px 10px 10px;
-        color: #000;
+        color: #011627;
         background-color: #fff;
         font-family: "Kavoon", sans-serif;
         font-size: 10px;
@@ -887,7 +893,7 @@ td {
 }
 
 .background-fill {
-    background-color: #EF6BBC;
+    background-color: #0f5257;
 }
 
 
@@ -898,7 +904,7 @@ footer {
     height: 50px;
     bottom: 0;
     width: 100%;
-    background-color: #F2AD08;
+    background-color: #BA2E33;
     z-index: 2;
 }
 
@@ -940,10 +946,11 @@ a:hover {
 #follow {
     color: #ffffff;
     font-family: "Kavoon", sans-serif;
+    font-size:20px;
 }
 
 .fa {
-    color: #F2AD08;
+    color: #BA2E33;
     background-color: #ffffff;
     text-align: center;
     margin: 0px;
@@ -958,5 +965,5 @@ a:hover {
 }
 
 .fa:hover {
-    background-color: #EF6BBC;
+    background-color: #0f5257;
 }

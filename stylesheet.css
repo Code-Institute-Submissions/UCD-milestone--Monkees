@@ -27,7 +27,7 @@ and shadow coding with orange shadow:
 grey:#E2DEE9
 RED: #BA2E33
 DARK NAVY: #011627
-GREEN: #0F5257
+GREEN: #84B59F
 
 ---*/
 
@@ -35,7 +35,7 @@ GREEN: #0F5257
 
 .navbar {
     display: block;
-    background-color: #BA2E33;
+    background-color: #84B59F;
     color: #ffffff;
     font-size: 18px;
     position: fixed;
@@ -115,7 +115,7 @@ GREEN: #0F5257
 
 button {
     border: none;
-    background-color: #BA2E33;
+    background-color: #84B59F;
     width: 50px;
     height: 50px;
     color: #fff;
@@ -129,7 +129,7 @@ button {
 
 .dropdownMenu {
     list-style: none;
-    background-color: #BA2E33;
+    background-color: #84B59F;
     width: 150px;
     padding-left: 0;
     text-indent: 15px;
@@ -154,7 +154,7 @@ button {
 }
 
 .dropdownItem:hover {
-    background-color: #99262A;
+    background-color: #78A591;
 }
 
 .dropdownLink:hover {
@@ -168,7 +168,7 @@ button {
 }
 
 .dropdown:hover button {
-    background-color: #99262A;
+    background-color: #78A591;
 }
 
 .dropdown:hover .dropdownMenu {
@@ -197,7 +197,7 @@ button {
 /*-------------------------------------- HOMEPAGE styling */
 
 .index-image {
-    padding-top: 50px;
+    padding-top: 57px;
     margin-bottom: 0;
 }
 
@@ -249,7 +249,7 @@ h1 .latest-news {
     font-family: "Kavoon", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    color: #0f5257;
+    color: #BA2E33;
     text-align: center;
 }
 
@@ -378,8 +378,8 @@ h1 .latest-news {
 }
 
 .modal-link:hover {
-    color: #0f5257;
-    text-decoration: underline;
+    text-decoration:none;
+    font-weight:700;
 }
 
 .row {
@@ -893,7 +893,7 @@ td {
 }
 
 .background-fill {
-    background-color: #0f5257;
+    background-color: #BA2E33;
 }
 
 
@@ -904,7 +904,7 @@ footer {
     height: 50px;
     bottom: 0;
     width: 100%;
-    background-color: #BA2E33;
+    background-color: #84B59F;
     z-index: 2;
 }
 
@@ -965,5 +965,5 @@ a:hover {
 }
 
 .fa:hover {
-    background-color: #0f5257;
+    background-color: #E2DEE9;
 }

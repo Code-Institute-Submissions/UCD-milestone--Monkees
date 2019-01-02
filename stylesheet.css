@@ -797,6 +797,10 @@ input[type="number"] {
 
 
 /*---------------------------------------------------- calendar */
+.center{
+    margin-left:auto;
+    margin-right:auto;
+}
 
 .container.calendar {
     margin-top: 110px;

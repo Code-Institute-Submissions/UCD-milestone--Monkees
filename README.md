@@ -156,7 +156,4 @@ The three images from the carousel on the 'About' page were sourced in this way.
 <br>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg7BHEw41onOuDsiCJ9753kv-lLAAz1fDzhTGiMH-F2oZFn3w8Mw
 
 ### Acknowledgements
-I received inspiration for this project colour scheme from an album of The Monkees titled "The Definitive Monkees" released 
-in 2001, a copy of which I own.
-
 Thanks to those of the Code Institute Slack community who helped out when I was stuck.

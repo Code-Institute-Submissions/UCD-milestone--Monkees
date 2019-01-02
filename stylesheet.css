@@ -3,6 +3,7 @@
 
 body {
     background-color: #E2DEE9;
+    font-family:"Roboto", sans-serif;
 }
 
 /* theme colors initial----------------
@@ -187,7 +188,7 @@ button {
 .sign-up-link-nav:hover {
     font-weight: bold;
     color: #fff;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .col-xs-6.burger-menu {
@@ -255,6 +256,7 @@ h1 .latest-news {
 
 .ticket-link:hover {
     text-decoration: underline;
+    color: #BA2E33;
 }
 
 .video-title {
@@ -373,27 +375,18 @@ h1 .latest-news {
 
 .modal-link {
     font-size: 20px;
-    color: #011627;
+    color: #BA2E33;
     text-decoration: none;
 }
 
 .modal-link:hover {
-    text-decoration:none;
+    color:#BA2E33;
+    text-decoration:underline;
     font-weight:700;
 }
 
 .row {
     margin: 0;
-}
-
-#QueryModal {
-    font-weight: 500;
-    font-size: 20px;
-}
-
-#thankyouModal {
-    font-weight: 500;
-    font-size: 20px;
 }
 
 /*---------------------------------------------------- audio-section */
@@ -483,14 +476,17 @@ audio {
 
 .carousel-indicators {
     z-index: 1;
+    color: #BA2E33;
 }
 
 .carousel-control.left {
     background-image: none;
+    color:#BA2E33;
 }
 
 .carousel-control.right {
     background-image: none;
+    color:#BA2E33;
 }
 
 @media (min-width: 768px) {
@@ -747,6 +743,7 @@ audio {
     width: 100px;
     text-align: center;
     font-family: "Kavoon", sans-serif;
+    font-size:18px;
     margin-top: 20px;
     color: #fff;
     background-color: #ba2e33;
@@ -755,7 +752,7 @@ audio {
 }
 
 .form-button:hover {
-    background-color: #99262A;
+    background-color: #BA2E33;
     color: #fff;
     border-color: transparent;
     font-weight: 700;
@@ -862,6 +859,12 @@ input[type="number"] {
     font-size: 20px;
 }
 
+.month-year{
+    font-weight: bold;
+    text-align: center;
+    color: #011627;
+}
+
 table,
 td {
     border: 1px solid #011627;
@@ -886,12 +889,6 @@ td {
     }
 }
 
-.month-year {
-    font-weight: bold;
-    text-align: center;
-    color: #011627;
-}
-
 .background-fill {
     background-color: #BA2E33;
 }
@@ -910,12 +907,13 @@ footer {
 
 .sign-up-link {
     line-height: 50px;
-    color: #ffffff;
+    color: #fff;
     font-family: "Kavoon", sans-serif;
 }
 
 .sign-up-link:hover {
     text-decoration: underline;
+    color:#fff;
 }
 
 a:focus,
@@ -925,7 +923,7 @@ a:hover {
 }
 
 .social-links {
-    line-height: 50px;
+    line-height: 40px;
     text-align: right;
 }
 
@@ -947,6 +945,7 @@ a:hover {
     color: #ffffff;
     font-family: "Kavoon", sans-serif;
     font-size:20px;
+    line-height:50px;
 }
 
 .fa {

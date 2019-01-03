@@ -589,6 +589,32 @@ audio {
     font-weight: 500;
 }
 
+.form-control:focus {
+    border-color: #84B59F;
+    outline: 0;
+    -webkit-box-shadow:none;
+    box-shadow: none;
+}
+
+/*code snippet below taken from : https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/ to remove autofill colour*/
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: none;
+  -webkit-text-fill-color:#000 ;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/*------------------------------------------------------*/
+
 @media (max-width:768px) {
     .form-text {
         width: 80%;

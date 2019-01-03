@@ -142,6 +142,9 @@ documentation. These references can be accessed in the documents folder under 'R
 The code snippet in stylesheet.css to hide the spin icon in number field of form was taken from Stack Overflow (commented out in stylesheet.css). 
 <br> This is the link : https://stackoverflow.com/questions/3790935/can-i-hide-the-html5-number-input-s-spin-box
 
+The code snippet in stylesheet.css to remove background colour for autofill of contact form was taken from CSS-TRICKS (commented ot in stylesheet.css).
+<br> This is the link: https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/
+
 ### Media
 Images, audio and video were provided by Code Institute and can be accessed here:
 <br> https://github.com/Code-Institute-Org/project-assets

@@ -6,23 +6,6 @@ body {
     font-family:"Roboto", sans-serif;
 }
 
-/* theme colors initial----------------
-pale blue: #54B2EC
-pink: #EF6BBC
-orange: #F2AD08
-lime green: #AAE748
-
----theme colors second--------*/
-/*
-deep red: #AA231C
-orange: #f2ad08
-blue: rgba(29, 177, 221, 1.0)
-
-darker teal: #107896
-
-and shadow coding with orange shadow:
-    text-shadow: -5px -5px 0 #F2AD12, 0px -1px 0 #F2AD12, -5px 5px 0 #F2AD12, 1px 1px 0 #F2AD12;
-*/
 
 /*---theme colors third-------
 grey:#E2DEE9
@@ -587,86 +570,6 @@ audio {
 @media (max-width:768px) {
     .band-p {
         padding-left: 25px;
-    }
-}
-
-/*---------------------------------------------------- whats new section
-
-.row {
-    margin: 0;
-}
-
-.video-main video {
-    width: 90%;
-    text-align: center;
-    padding-left: 50px;
-}
-
-.video-main h2 {
-    color: #fff;
-    font-family: "Kavoon", sans-serif;
-    text-align: left;
-    padding-bottom: 10px;
-    padding-top: 100px;
-    padding-left: 50px;
-}
-
-.video-tagline {
-    color: #fff;
-    font-family: "Kavoon", sans-serif;
-    text-align: left;
-    padding-top: 10px;
-    padding-left: 50px;
-    font-size: 20px;
-}
-
-.tourdates {
-    color: #fff;
-    font-family: "Kavoon", sans-serif;
-    padding-top: 100px;
-    text-align: center;
-    margin-bottom: 70px;
-}
-
-.tourdates a {
-    color: #fff;
-}
-
-.tourdates a:hover {
-    color: #F2AD08;
-    transform: transition 0.5s ease-in-out;
-    text-decoration: none;
-}
-
-@media (max-width:768px) {
-    .tourdates {
-        color: #fff;
-        font-family: "Kavoon", sans-serif;
-        padding-top: 15px;
-        padding-bottom: 60px;
-        text-align: center;
-    }
-    .video-main h2 {
-        color: #fff;
-        font-family: "Kavoon", sans-serif;
-        text-align: left;
-        padding-bottom: 10px;
-        padding-top: 60px;
-    }
-    .video-main video {
-        width: 100%;
-        text-align: center;
-        padding-left: 10px;
-    }
-}
-
-@media (max-width:992px) {
-    .tourdates {
-        color: #fff;
-        font-family: "Kavoon", sans-serif;
-        padding-top: 15px;
-        padding-bottom: 60px;
-        text-align: center;
     }
 }
 

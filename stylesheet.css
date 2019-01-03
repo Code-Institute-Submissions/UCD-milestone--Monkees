@@ -1,9 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Kavoon|Luckiest+Guy|Roboto: 100, 200, 300, 400, 500, 600, 700');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto: 100, 200, 300, 400, 500, 600, 700');
 /*-------------------------------------- body styling */
 
 body {
     background-color: #E2DEE9;
     font-family:"Roboto", sans-serif;
+    color:#011627;
+}
+
+h1,h2,h3,h4,h5{
+    font-family:"Luckiest Guy", sans-serif;
+    font-weight:500;
+    letter-spacing:2px;
+    color:#011627;
+    text-align:center;
 }
 
 
@@ -25,16 +34,12 @@ GREEN: #84B59F
     position: fixed;
     height: 50px;
     width: 100%;
-    font-family: "Kavoon", sans-serif;
+    font-family: "Luckiest Guy", sans-serif;
+    letter-spacing:2px;
     z-index: 2;
     padding-left: 15px;
 }
 
-@media(max-width:992px) {
-    .navbar {
-        padding-left: 0;
-    }
-}
 
 .navbar.navbar-default {
     border-style: none;
@@ -53,16 +58,6 @@ GREEN: #84B59F
     width: 90%;
 }
 
-@media (min-width:992px) {
-    .nav.navbar-nav {
-        margin: 0 auto;
-        display: table;
-        table-layout: auto;
-        float: none;
-        width: 75%;
-    }
-}
-
 .navbar-nav>li {
     display: table-cell;
     float: none;
@@ -78,7 +73,6 @@ GREEN: #84B59F
     font-weight: 700;
 }
 
-
 .btn.navbar-btn.navbar-right {
     vertical-align: middle;
     margin-right: 20px;
@@ -89,12 +83,6 @@ GREEN: #84B59F
     padding-left: 0px;
     margin-right: 0;
     margin-left: 0;
-}
-
-@media (min-width: 768px) {
-    .container {
-        width: auto;
-    }
 }
 
 button {
@@ -130,7 +118,7 @@ button {
 }
 
 .dropdownLink {
-    font-family: "Kavoon", sans-serif;
+    font-family: "luckiest Guy", sans-serif;
     color: #fff;
     height: 50px;
     width: 120px;
@@ -161,7 +149,7 @@ button {
 
 .sign-up-link-nav {
     float: right;
-    font-family: "Kavoon", sans-serif;
+    font-family: "Luckiest Guy", sans-serif;
     font-size: 20px;
     line-height: 50px;
     color: #fff;
@@ -182,23 +170,14 @@ button {
 
 .index-image {
     padding-top: 57px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 #latest {
-    font-family: "Kavoon", sans-serif;
     font-weight: 700;
     font-size: 75px;
-    color: #011627;
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-@media (max-width:550px) {
-    #latest {
-        font-size: 50px;
-    }
 }
 
 .container-fluid {
@@ -211,30 +190,20 @@ button {
 }
 
 h1 .latest-news {
-    font-family: "Kavoon", sans-serif;
-    font-weight: 500;
     font-size: 30px;
-    color: #011627;
-    text-align: center;
     margin-top: 0;
 }
 
 .tourdates-index {
-    font-family: "Kavoon", sans-serif;
-    font-weight: 500;
     font-size: 20px;
-    color: #011627;
-    text-align: center;
     padding-top: 15px;
 }
 
 .tourdates-index a {
     padding-bottom: 100px;
-    font-family: "Kavoon", sans-serif;
-    font-weight: 500;
+    font-family: "Luckiest Guy", sans-serif;
     font-size: 20px;
     color: #BA2E33;
-    text-align: center;
 }
 
 .ticket-link:hover {
@@ -243,11 +212,7 @@ h1 .latest-news {
 }
 
 .video-title {
-    font-family: "Kavoon", sans-serif;
-    font-weight: 500;
     font-size: 30px;
-    color: #011627;
-    text-align: center;
     padding-top: 50px;
 }
 
@@ -257,19 +222,10 @@ h1 .latest-news {
     width: 90%;
 }
 
-@media (max-width:991px) {
-    .index-video {
-        margin-left: 0px;
-        width: 100%;
-    }
-}
 
 .video-tagline {
-    color: #011627;
-    font-family: "Kavoon", sans-serif;
     padding-top: 10px;
-    font-size: 20px;
-    text-align: center;
+    font-size: 30px;
 }
 
 
@@ -277,21 +233,14 @@ h1 .latest-news {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-    font-family: "Kavoon", sans-serif;
     font-weight: 700;
-    font-size: 30px;
-    color: #011627;
-    text-align: center;
+    font-size: 40px;
     margin-bottom: 0;
 }
 
 .book-the-band {
     width: 100%;
-    font-family: "Kavoon", sans-serif;
-    font-weight: 500;
     font-size: 70px;
-    color: #ffffff;
-    text-align: center;
     transform: translateY(210px);
 }
 
@@ -305,7 +254,7 @@ h1 .latest-news {
 }
 
 .book-the-band a {
-    color: #ffffff;
+    color: #fff;
 }
 
 .book-the-band a:hover {
@@ -318,42 +267,27 @@ h1 .latest-news {
 
 .btn-default {
     color: #fff;
-    font-family: "Kavoon", sans-serif;
+    font-family: "Luckiest Guy", sans-serif;
+    font-size:15px;
     background-color: #ba2e33;
     border-color: #ba2e33;
     width: 100px;
 }
 
-.btn-default:hover {
+.btn-default:hover, .btn-default:active, .btn-default:active:hover, .btn-default:focus {
     color: #fff;
     background-color: #99262A;
     border-color: #99262A;
 }
 
-.btn-default:active {
-    background-color: #99262A;
-    border-color: #99262A;
-    color: #fff;
-}
-
-.btn-default:active:hover {
-    background-color: #99262A;
-    border-color: #99262A;
-    color: #fff;
-}
-
-.btn-default:focus {
-    color: #fff;
-    background-color: #99262A;
-    border-color:#99262A;
+.btn:focus{
+    outline: 0px;
+    outline-offset: 0px;
 }
 
 .modal-title {
     margin: 0;
-    line-height: 1.42857143;
-    font-family: "Kavoon", sans-serif;
     font-size: 30px;
-    color: #011627;
 }
 
 .modal-link {
@@ -370,76 +304,6 @@ h1 .latest-news {
 
 .row {
     margin: 0;
-}
-
-/*---------------------------------------------------- audio-section */
-
-audio {
-    margin: 10px auto 60px auto;
-    width: 200px;
-    display: block;
-    -webkit-transform: translateY(100px);
-    -ms-transform: translateY(100px);
-    transform: translateY(100px);
-    position: relative;
-    z-index: 1;
-}
-
-.last-audio {
-    padding-bottom: 100px;
-}
-
-.album-image {
-    height: 200px;
-    width: 200px;
-    -webkit-transform: translateY(100px);
-    -ms-transform: translateY(100px);
-    transform: translateY(100px);
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.album-name {
-    font-family: "Kavoon", sans-serif;
-    font-weight: 300;
-    color: #011627;
-    text-align: center;
-    -webkit-transform: translateY(100px);
-    -ms-transform: translateY(100px);
-    transform: translateY(100px);
-}
-
-@media (max-width:768px) {
-    .album-name {
-        -webkit-transform: translateY(50px);
-        -ms-transform: translateY(50px);
-        transform: translateY(50px);
-    }
-    .album-image {
-        -webkit-transform: translateY(50px);
-        -ms-transform: translateY(50px);
-        transform: translateY(50px);
-    }
-    audio {
-        -webkit-transform: translateY(50px);
-        -ms-transform: translateY(50px);
-        transform: translateY(50px);
-    }
-}
-
-.music-header {
-    font-family: "Kavoon", sans-serif;
-    font-weight: 600;
-    color: #011627;
-    text-align: center;
-    padding-top: 100px;
-}
-
-@media (max-width:768px) {
-    .music-header {
-        padding-top: 60px;
-    }
 }
 
 /*---------------------------------------------------- about section CAROUSEL */
@@ -472,68 +336,18 @@ audio {
     color:#BA2E33;
 }
 
-@media (min-width: 768px) {
-    .carousel-control .glyphicon-chevron-left,
-    .carousel-control .icon-prev {
-        margin-left: -50px;
-    }
-}
-
-@media (min-width: 768px) {
-    .carousel-control .glyphicon-chevron-right,
-    .carousel-control .icon-prev {
-        margin-right: -50px;
-    }
-}
-
 /*---------------------------------------------------- about section */
 
 .about-img {
     margin-bottom: -60px;
 }
 
-@media(min-width:768px) {
-    .about-img {
-        transform: translateY(-150px);
-    }
-}
-
-@media(max-width:1000px) {
-    .about-img {
-        transform: translateY(-100px);
-    }
-}
-
-@media(max-width:737px) {
-    .about-img {
-        transform: translateY(-50px);
-    }
-}
-
-@media(max-width:400px) {
-    .about-img {
-        transform: translateY(0px);
-    }
-}
-
 .about-text {
-    color: #011627;
-    font-family: "Kavoon", sans-serif;
-    font-weight: 400;
     font-size: 20px;
     width: 90%;
     display: inline-block;
     padding-bottom: 40px;
     margin-left: 50px;
-}
-
-@media (max-width:768px) {
-    .about-text {
-        color: #011627;
-        font-family: "Kavoon", sans-serif;
-        font-weight: 400;
-        margin-left: 25px;
-    }
 }
 
 .band-container {
@@ -548,15 +362,8 @@ audio {
     margin-top: 25px;
 }
 
-@media (max-width:768px) {
-    .band-pics {
-        margin-left: 25px;
-    }
-}
-
-.band-p {
-    color: #011627;
-    font-family: "Kavoon", sans-serif;
+.band-p, .band-member {
+    text-align:left;
     font-size: 20px;
     padding-left: 50px;
     padding-right: 50px;
@@ -567,26 +374,56 @@ audio {
     padding-bottom: 75px;
 }
 
-@media (max-width:768px) {
-    .band-p {
-        padding-left: 25px;
-    }
+/*---------------------------------------------------- audio-section */
+
+audio {
+    margin: 10px auto 60px auto;
+    width: 200px;
+    display: block;
+    -webkit-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+    position: relative;
+    z-index: 1;
+}
+
+.last-audio {
+    padding-bottom: 100px;
+}
+
+.album-image {
+    height: 200px;
+    width: 200px;
+    -webkit-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.album-name {
+    font-size:20px;
+    -webkit-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+}
+
+.music-header {
+    font-size:40px;
+    padding-top: 100px;
 }
 
 /*----------------------------------------------------  book form */
-
 .form-container h1 {
-    color: #011627;
-    font-family: "Kavoon", sans-serif;
+    text-align:left;
     font-weight: 700;
 }
 
 .form-text {
+    text-align:left;
     width: 80%;
-    color: #011627;
-    font-family: "Kavoon", sans-serif;
     font-size: 20px;
-    font-weight: 500;
 }
 
 .form-control:focus {
@@ -615,32 +452,10 @@ select:-webkit-autofill:focus {
 
 /*------------------------------------------------------*/
 
-@media (max-width:768px) {
-    .form-text {
-        width: 80%;
-    }
-}
-
 .container-fluid.form-container {
     margin-top: 100px;
     padding-left: 100px;
     display: inline-block;
-}
-
-@media (max-width:768px) {
-    .container-fluid.form-container {
-        margin-top: 50px;
-        margin-left: 15px;
-        padding-left: 25px;
-        display: block;
-        width: 90%;
-    }
-}
-
-@media (max-width:1200px) {
-    .container-fluid.form-container {
-        width: 100%;
-    }
 }
 
 .form-control {
@@ -667,27 +482,18 @@ select:-webkit-autofill:focus {
     border:none;
 }
 
-@media (max-width:768px) {
-    .form-control {
-        width: 80%;
-    }
-}
-
 .form-button {
     width: 100px;
-    text-align: center;
-    font-family: "Kavoon", sans-serif;
     font-size:18px;
+    letter-spacing:2.5px;
     margin-top: 20px;
     color: #fff;
     background-color: #ba2e33;
     border-color: transparent;
-    font-weight: 500;
 }
 
 .form-button:hover {
     background-color: #BA2E33;
-    color: #fff;
     border-color: transparent;
     font-weight: 700;
 }
@@ -701,15 +507,8 @@ label {
     display: inline-block;
     max-width: 50%;
     margin-bottom: 5px;
-    font-weight: 500;
     font-size: 20px;
-    font-family: "Kavoon", sans-serif;
-    color: #011627;
-}
-
-.email-help-book {
-    color:#011627;
-    font-family: "Kavoon", sans-serif;
+    font-weight:500;
 }
 
 /*---------------Code snippet taken from Stack Overflow to hide spinner in number field in contact form-----*/
@@ -734,103 +533,28 @@ input[type="number"] {
 .container.calendar {
     margin-top: 110px;
     margin-bottom: 100px;
-    text-align: center;
-    font-family: "Kavoon", sans-serif;
-    font-size: 20px;
-    color: #fff;
-    padding-left: 100px;
-}
-
-@media (max-width:991px) {
-    .container.calendar {
-        margin-top: 50px;
-    }
-}
-
-@media (max-width:768px) {
-    .container.calendar {
-        margin-top: 50px;
-        padding-left: 0px;
-    }
-}
-
-@media (max-width:414px) {
-    .container.calendar {
-        margin-top: 50px;
-        padding-left: 15px;
-        margin-left: 0px;
-    }
-}
-
-@media (min-width:992px) {
-    .container.calendar {
-        margin-top: 100px;
-        width:100%;
-    }
-}
-
-@media (min-width: 768px) {
-    .container.calendar {
-        width: 100%;
-        padding-left: 15px;
-    }
-}
-
-@media (min-width:1200px) {
-    .container.calendar {
-        margin-top: 100px;
-        width:50%;
-    }
 }
 
 .calendar h2 {
-    font-family: "Kavoon", sans-serif;
-    color: #011627;
-    font-weight: 700;
     font-size: 36px;
 }
 
 .calendar-text {
-    font-family: "Kavoon", sans-serif;
-    color: #011627;
-    font-weight: 500;
     font-size: 20px;
-}
-
-.month-year{
-    font-weight: bold;
-    text-align: center;
-    color: #011627;
 }
 
 table,
 td {
     border: 1px solid #011627;
-    text-align: center;
+    text-align:center;
     padding: 15px 15px 15px 15px;
-    color: #011627;
     background-color: #fff;
-    font-family: "Kavoon", sans-serif;
     font-size: 15px;
-}
-
-@media (max-width:360px) {
-    table,
-    td {
-        border: 1px solid #011627;
-        text-align: center;
-        padding: 10px 10px 10px 10px;
-        color: #011627;
-        background-color: #fff;
-        font-family: "Kavoon", sans-serif;
-        font-size: 10px;
-    }
 }
 
 .background-fill {
     background-color: #BA2E33;
 }
-
 
 /*---------------------------------------------------- footer */
 
@@ -846,7 +570,8 @@ footer {
 .sign-up-link {
     line-height: 50px;
     color: #fff;
-    font-family: "Kavoon", sans-serif;
+    font-family: "Luckiest Guy", sans-serif;
+    letter-spacing:2px;
 }
 
 .sign-up-link:hover {
@@ -865,23 +590,10 @@ a:hover {
     text-align: right;
 }
 
-@media (max-width:768px) {
-    .social-links {
-        line-height: 25px;
-        text-align: center;
-    }
-}
-
-@media (max-width:992px) {
-    .social-links {
-        line-height: 25px;
-        text-align: center;
-    }
-}
 
 #follow {
     color: #ffffff;
-    font-family: "Kavoon", sans-serif;
+    font-family: "Luckiest Guy", sans-serif;
     font-size:20px;
     line-height:50px;
 }
@@ -904,3 +616,119 @@ a:hover {
 .fa:hover {
     background-color: #E2DEE9;
 }
+
+/*Media queries------------------------------------------*/
+@media (max-width:360px) {
+    table,
+    td {
+        border: 1px solid #011627;
+        padding: 10px 10px 10px 10px;
+        background-color: #fff;
+        font-size: 10px;
+    }
+}
+
+@media (max-width:550px) {
+    #latest {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container.calendar {
+        width: 100%;
+    }
+    .container {
+        width: auto;
+    }
+}
+@media (max-width:768px) {
+    .container.calendar {
+        margin-top: 50px;
+    }
+    .form-control {
+        width: 80%;
+    }
+    .form-text {
+        width: 80%;
+    }
+    .container-fluid.form-container {
+        margin-top: 50px;
+        margin-left: 15px;
+        padding-left: 25px;
+        display: block;
+        width: 90%;
+    }
+    .band-pics {
+        margin-left: 25px;
+    }
+    .band-p {
+        padding-left: 25px;
+    }
+    .album-name {
+        -webkit-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        transform: translateY(50px);
+    }
+    .album-image {
+        -webkit-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        transform: translateY(50px);
+    }
+    audio {
+        -webkit-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        transform: translateY(50px);
+    }
+    .music-header {
+        padding-top: 60px;
+    }
+    .about-text {
+        margin-left: 25px;
+    }
+    .social-links {
+        transform: translateY(-5px);
+    }
+}
+
+
+
+@media(max-width:992px) {
+    .navbar {
+        padding-left: 0;
+    }
+     .social-links {
+        transform: translateY(-10px);
+        text-align: center;
+    }
+    .container.calendar {
+        margin-top: 50px;
+    }
+    .index-video {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+@media (min-width:992px) {
+    .container.calendar {
+        margin-top: 100px;
+        width:100%;
+    }
+    .nav.navbar-nav {
+        margin: 0 auto;
+        display: table;
+        table-layout: auto;
+        float: none;
+        width: 75%;
+    }
+}
+
+@media (max-width:1200px) {
+    .container-fluid.form-container {
+        width: 100%;
+    }
+}
+
+
+

@@ -190,16 +190,18 @@ button:focus {
     padding-top: 15px;
 }
 
-.tourdates-index a {
+.tourdates-index a, .tourdates-index a:focus {
     padding-bottom: 100px;
     font-family: "Luckiest Guy", sans-serif;
     font-size: 20px;
     color: #BA2E33;
+    outline:0;
 }
 
-.ticket-link:hover {
+.ticket-link:hover{
     text-decoration: underline;
     color: #BA2E33;
+    outline:0;
 }
 
 .video-title {

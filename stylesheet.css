@@ -19,13 +19,11 @@ h5 {
     text-align: center;
 }
 
-
 /*---theme colors third-------
-grey:#E2DEE9
+GREY:#E2DEE9
 RED: #BA2E33
 DARK NAVY: #011627
 GREEN: #84B59F
-
 ---*/
 
 /*-------------------------------------- Navbar styling */
@@ -42,16 +40,13 @@ GREEN: #84B59F
     letter-spacing: 2px;
     z-index: 2;
     padding-left: 15px;
-}
-
-
-.navbar.navbar-default {
     border-style: none;
     border-radius: 0px;
 }
 
 .navbar-header {
     line-height: 50px;
+    padding-left:15px;
 }
 
 .nav.navbar-nav {
@@ -122,30 +117,22 @@ button, button:focus {
     transition: transform 1s ease-in-out;
 }
 
-.dropdownLink {
+.dropdownLink, .dropdownLink:hover {
     font-family: "luckiest Guy", sans-serif;
     color: #fff;
     height: 50px;
     width: 120px;
     font-size: 18px;
+    text-decoration:none;
 }
 
-.dropdownItem:hover {
+.dropdownItem:hover, .dropdown:hover button {
     background-color: #78A591;
-}
-
-.dropdownLink:hover {
-    color: #fff;
-    text-decoration: none;
 }
 
 .dropdown {
     width: 50px;
     position: relative;
-}
-
-.dropdown:hover button {
-    background-color: #78A591;
 }
 
 .dropdown:hover .dropdownMenu {
@@ -163,7 +150,6 @@ button, button:focus {
 
 .sign-up-link-nav:hover {
     font-weight: bold;
-    color: #fff;
     text-decoration: underline;
 }
 
@@ -227,12 +213,10 @@ h1 .latest-news {
     width: 90%;
 }
 
-
 .video-tagline {
     padding-top: 10px;
     font-size: 30px;
 }
-
 
 .container-fluid.newsletter {
     width: 100%;
@@ -263,7 +247,6 @@ h1 .latest-news {
 }
 
 .book-the-band a:hover {
-    color: #fff;
     text-decoration: none;
     font-weight: 700;
 }
@@ -329,27 +312,13 @@ h1 .latest-news {
     -o-transition: transform 2s ease-in-out;
 }
 
-.carousel-indicators {
-    z-index: 1;
-    color: #BA2E33;
-}
-
-.carousel-control.left {
+.carousel-control.left, .carousel-control.right, .carousel-indicators{
     background-image: none;
     color: #BA2E33;
-}
-
-.carousel-control.right {
-    background-image: none;
-    color: #BA2E33;
+    z-index:1;
 }
 
 /*---------------------------------------------------- about section */
-
-.about-img {
-    margin-bottom: -60px;
-}
-
 .about-text {
     font-size: 20px;
     width: 90%;
@@ -438,7 +407,7 @@ audio {
 
 .form-control:focus {
     border-color: #84B59F;
-    outline: 0;
+    outline: 0px;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -546,7 +515,7 @@ input[type="number"] {
 }
 
 .container.calendar {
-    margin-top: 110px;
+    margin-top: 50px;
     margin-bottom: 100px;
     font-size: 36px;
 }
@@ -606,9 +575,8 @@ a:hover {
     text-align: right;
 }
 
-
 #follow {
-    color: #ffffff;
+    color: #fff;
     font-family: "Luckiest Guy", sans-serif;
     font-size: 20px;
     line-height: 50px;
@@ -635,35 +603,7 @@ a:hover {
 
 /*Media queries------------------------------------------*/
 
-@media (max-width:360px) {
-    table,
-    td {
-        border: 1px solid #011627;
-        padding: 10px 10px 10px 10px;
-        background-color: #fff;
-        font-size: 10px;
-    }
-}
-
-@media (max-width:550px) {
-    #latest {
-        font-size: 50px;
-    }
-}
-
-@media (min-width: 768px) {
-    .container.calendar {
-        width: 100%;
-    }
-    .container {
-        width: auto;
-    }
-}
-
-@media (max-width:768px) {
-    .container.calendar {
-        margin-top: 50px;
-    }
+@media (max-width:767px) {
     .form-control {
         width: 80%;
     }
@@ -709,9 +649,7 @@ a:hover {
     }
 }
 
-
-
-@media(max-width:992px) {
+@media (min-width: 768px) {
     .navbar {
         padding-left: 0;
     }
@@ -719,20 +657,9 @@ a:hover {
         transform: translateY(-10px);
         text-align: center;
     }
-    .container.calendar {
-        margin-top: 50px;
-    }
-    .index-video {
-        margin-left: 0px;
-        width: 100%;
-    }
 }
 
 @media (min-width:992px) {
-    .container.calendar {
-        margin-top: 100px;
-        width: 100%;
-    }
     .nav.navbar-nav {
         margin: 0 auto;
         display: table;
@@ -740,10 +667,10 @@ a:hover {
         float: none;
         width: 75%;
     }
-}
-
-@media (max-width:1200px) {
-    .container-fluid.form-container {
-        width: 100%;
+    .social-links {
+        transform: translateY(0px);
+        text-align: right;
     }
 }
+
+

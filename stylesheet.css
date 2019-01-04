@@ -3,16 +3,20 @@
 
 body {
     background-color: #E2DEE9;
-    font-family:"Roboto", sans-serif;
-    color:#011627;
+    font-family: "Roboto", sans-serif;
+    color: #011627;
 }
 
-h1,h2,h3,h4,h5{
-    font-family:"Luckiest Guy", sans-serif;
-    font-weight:500;
-    letter-spacing:2px;
-    color:#011627;
-    text-align:center;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Luckiest Guy", sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #011627;
+    text-align: center;
 }
 
 
@@ -35,7 +39,7 @@ GREEN: #84B59F
     height: 50px;
     width: 100%;
     font-family: "Luckiest Guy", sans-serif;
-    letter-spacing:2px;
+    letter-spacing: 2px;
     z-index: 2;
     padding-left: 15px;
 }
@@ -85,16 +89,17 @@ GREEN: #84B59F
     margin-left: 0;
 }
 
-button {
+button, button:focus {
     border: none;
     background-color: #84B59F;
     width: 50px;
     height: 50px;
     color: #fff;
     cursor: pointer;
+    outline:0px;
 }
 
-.glyphicon-menu-hamburger {
+.glyphicon-menu-hamburger{
     font-size: 25px;
     padding-top: 10px;
 }
@@ -268,19 +273,22 @@ h1 .latest-news {
 .btn-default {
     color: #fff;
     font-family: "Luckiest Guy", sans-serif;
-    font-size:15px;
+    font-size: 15px;
     background-color: #ba2e33;
     border-color: #ba2e33;
     width: 100px;
 }
 
-.btn-default:hover, .btn-default:active, .btn-default:active:hover, .btn-default:focus {
+.btn-default:hover,
+.btn-default:active,
+.btn-default:active:hover,
+.btn-default:focus {
     color: #fff;
     background-color: #99262A;
     border-color: #99262A;
 }
 
-.btn:focus{
+.btn:focus {
     outline: 0px;
     outline-offset: 0px;
 }
@@ -297,9 +305,9 @@ h1 .latest-news {
 }
 
 .modal-link:hover {
-    color:#BA2E33;
-    text-decoration:underline;
-    font-weight:700;
+    color: #BA2E33;
+    text-decoration: underline;
+    font-weight: 700;
 }
 
 .row {
@@ -328,12 +336,12 @@ h1 .latest-news {
 
 .carousel-control.left {
     background-image: none;
-    color:#BA2E33;
+    color: #BA2E33;
 }
 
 .carousel-control.right {
     background-image: none;
-    color:#BA2E33;
+    color: #BA2E33;
 }
 
 /*---------------------------------------------------- about section */
@@ -362,8 +370,9 @@ h1 .latest-news {
     margin-top: 25px;
 }
 
-.band-p, .band-member {
-    text-align:left;
+.band-p,
+.band-member {
+    text-align: left;
     font-size: 20px;
     padding-left: 50px;
     padding-right: 50px;
@@ -403,51 +412,50 @@ audio {
 }
 
 .album-name {
-    font-size:20px;
+    font-size: 20px;
     -webkit-transform: translateY(100px);
     -ms-transform: translateY(100px);
     transform: translateY(100px);
 }
 
 .music-header {
-    font-size:40px;
+    font-size: 40px;
     padding-top: 100px;
 }
 
 /*----------------------------------------------------  book form */
-.form-container h1 {
-    text-align:left;
+
+.form-container {
+    text-align: left;
     font-weight: 700;
 }
 
 .form-text {
-    text-align:left;
-    width: 80%;
+    text-align: left;
+    width: 90%;
     font-size: 20px;
 }
 
 .form-control:focus {
     border-color: #84B59F;
     outline: 0;
-    -webkit-box-shadow:none;
+    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
 /*code snippet below taken from : https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/ to remove autofill colour*/
 
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover
-textarea:-webkit-autofill:focus,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  border: none;
-  -webkit-text-fill-color:#000 ;
-  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
-  transition: background-color 5000s ease-in-out 0s;
+    border: none;
+    -webkit-text-fill-color: #000;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    transition: background-color 5000s ease-in-out 0s;
 }
 
 /*------------------------------------------------------*/
@@ -456,6 +464,10 @@ select:-webkit-autofill:focus {
     margin-top: 100px;
     padding-left: 100px;
     display: inline-block;
+}
+
+.contact-heading{
+    text-align:left;
 }
 
 .form-control {
@@ -477,25 +489,27 @@ select:-webkit-autofill:focus {
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
-.form-control:active{
-    background-color:#fff;
-    border:none;
+.form-control:active {
+    background-color: #fff;
+    border: none;
 }
 
 .form-button {
     width: 100px;
-    font-size:18px;
-    letter-spacing:2.5px;
+    font-size: 18px;
+    letter-spacing: 2.5px;
     margin-top: 20px;
     color: #fff;
     background-color: #ba2e33;
     border-color: transparent;
 }
 
-.form-button:hover {
+.form-button:hover, .form-button:active:focus {
     background-color: #BA2E33;
     border-color: transparent;
     font-weight: 700;
+    color:#fff;
+    outline:0px;
 }
 
 .form-group {
@@ -508,7 +522,7 @@ label {
     max-width: 50%;
     margin-bottom: 5px;
     font-size: 20px;
-    font-weight:500;
+    font-weight: 500;
 }
 
 /*---------------Code snippet taken from Stack Overflow to hide spinner in number field in contact form-----*/
@@ -525,35 +539,37 @@ input[type="number"] {
 
 
 /*---------------------------------------------------- calendar */
-.center{
-    margin-left:auto;
-    margin-right:auto;
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container.calendar {
     margin-top: 110px;
     margin-bottom: 100px;
-}
-
-.calendar h2 {
     font-size: 36px;
-}
-
-.calendar-text {
-    font-size: 20px;
 }
 
 table,
 td {
     border: 1px solid #011627;
-    text-align:center;
+    text-align: center;
     padding: 15px 15px 15px 15px;
     background-color: #fff;
     font-size: 15px;
 }
 
+th {
+    height:40px;
+    background-color: #84B59F;
+    text-align: center;
+    font-family: "Luckiest Guy", sans-serif;
+    font-size:20px;
+}
+
 .background-fill {
-    background-color: #BA2E33;
+    background-color: rgba(186, 46, 51, 0.4);
 }
 
 /*---------------------------------------------------- footer */
@@ -571,12 +587,12 @@ footer {
     line-height: 50px;
     color: #fff;
     font-family: "Luckiest Guy", sans-serif;
-    letter-spacing:2px;
+    letter-spacing: 2px;
 }
 
 .sign-up-link:hover {
     text-decoration: underline;
-    color:#fff;
+    color: #fff;
 }
 
 a:focus,
@@ -594,8 +610,8 @@ a:hover {
 #follow {
     color: #ffffff;
     font-family: "Luckiest Guy", sans-serif;
-    font-size:20px;
-    line-height:50px;
+    font-size: 20px;
+    line-height: 50px;
 }
 
 .fa {
@@ -618,6 +634,7 @@ a:hover {
 }
 
 /*Media queries------------------------------------------*/
+
 @media (max-width:360px) {
     table,
     td {
@@ -642,6 +659,7 @@ a:hover {
         width: auto;
     }
 }
+
 @media (max-width:768px) {
     .container.calendar {
         margin-top: 50px;
@@ -697,7 +715,7 @@ a:hover {
     .navbar {
         padding-left: 0;
     }
-     .social-links {
+    .social-links {
         transform: translateY(-10px);
         text-align: center;
     }
@@ -713,7 +731,7 @@ a:hover {
 @media (min-width:992px) {
     .container.calendar {
         margin-top: 100px;
-        width:100%;
+        width: 100%;
     }
     .nav.navbar-nav {
         margin: 0 auto;
@@ -729,6 +747,3 @@ a:hover {
         width: 100%;
     }
 }
-
-
-

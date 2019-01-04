@@ -22,14 +22,15 @@ informed decisions for particular sections of the site.
 venue would generate revenue.
 
 During project development I also created some wireframes for my project. My initial wireframes changed after some feedback on
-the dark color scheme and some changes in layout. The final layout is also slightly different as issues arose during development.
-Both sets of wireframes have been included in These can be viewed under the documents folder: https://github.com/kmaaallen/UCD-milestone--Monkees/tree/master/Documents/Project%20Development/WireFrames .
+the dark color scheme and some changes in layout. The final layout is slightly different as issues arose during development and the color scheme
+changed again after user testing (i.e feedback from family and friends).
+Both sets of wireframes have been included and these can be viewed under the documents folder: https://github.com/kmaaallen/UCD-milestone--Monkees/tree/master/Documents/Project%20Development/WireFrames .
 
 ## Features
 ### Existing Features
 #### Feature 1 - Navigation bar
 The navigation bar allows users to navigate the site by clicking on links to other pages or the sign up modal.
-This collapses to a 'burger icon' dropdown menu in mobile screen sizes to reduce over crowding and improve user experience.
+This collapses to a 'burger icon' dropdown menu in mobile screen sizes to reduce over-crowding and improve user experience.
 
 #### Feature 2 - Sign up to newsletter link 
 The sign up link implements a modal in the same page when clicked on. This allows users to sign up to the band's email newsletter
@@ -37,7 +38,7 @@ by entering their email and pressing submit. The form checks for a valid email a
 This link is available in the fixed footer on large and medium screen sizes and moves to the fixed navigation at top of page in mobile.
 to make it more visually pleasing and avoid over crowding in mobile view. 
 The sign up link can also be accessed from the "Never miss the news again!" banner on the home page.
-The link displays a white underline when hovered on (in all locations: nav,footer and main page) in desktop to indicate it is a link and for consistency.
+The link displays an underline when hovered on (in all locations: nav,footer and main page) in desktop to indicate it is a link and for consistency.
 
 #### Feature 3 - Embedded video link
 A 'latest video' is embedded into the homepage which users can press play and pause on at any time to view
@@ -73,7 +74,7 @@ if the band is available on certain dates (as unavailable dates are blocked out 
 
 ### Features Left to Implement
 #### Feature 1 - Add functionality to calendar
-I would like to add javascript to the calendar so the user can change from month to month and click on individual days to see
+I would like to add javascript functionality to the calendar so the user can change from month to month and click on individual days to see
 if it is available and if not to see why not - i.e "booked for private event" or similar.
 
 #### Feature 2 - Merchandise feature

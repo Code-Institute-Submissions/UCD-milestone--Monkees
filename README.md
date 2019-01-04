@@ -92,7 +92,7 @@ Used as base languages to write and style webpages.
 <br> JavaScript: https://www.w3schools.com/js/default.asp
 
 ### Bootstrap
-This project uses Bootstrap as a framework to assist in page layout, navigation, modal and carousel features.
+This project uses Bootstrap (and classes imported from Bootstrap) as a framework to assist in page layout, navigation, modal and carousel features.
 <br>https://getbootstrap.com/
 
 ### Cloud9
@@ -104,11 +104,11 @@ This project uses JQuery to assist in execution of bootstrap and javaScript feat
 <br>https://jquery.com/
 
 ### FontAwesome
-FontAwesome was used to get social link icons for facebook, twitter and youtube.
+The social link icons for facebook, twitter and youtube (in footer) were imported from FontAwesome.
 <br>https://fontawesome.com/
 
 ### Google Fonts
-Main theme font "Kavoon" was taken from Google fonts.
+Main theme font "Luckiest Guy" and sub-theme font "Roboto" were imported from Google fonts.
 <br>https://fonts.google.com/
 
 ### GitHub
@@ -139,10 +139,10 @@ All content regarding The Monkees in the 'about' page was taken from the wikiped
 documentation. These references can be accessed in the documents folder under 'Referencing' 
 <br> https://github.com/kmaaallen/UCD-milestone--Monkees/blob/master/Documents/Referencing/Information%20references
 
-The code snippet in stylesheet.css to hide the spin icon in number field of form was taken from Stack Overflow (commented out in stylesheet.css). 
+The code snippet in stylesheet.css to hide the spin icon in number field of form was taken from Stack Overflow (commented out in stylesheet.css). Original author 'Swerhen' posted 21/03/14.
 <br> This is the link : https://stackoverflow.com/questions/3790935/can-i-hide-the-html5-number-input-s-spin-box
 
-The code snippet in stylesheet.css to remove background colour for autofill of contact form was taken from CSS-TRICKS (commented ot in stylesheet.css).
+The code snippet in stylesheet.css to remove background colour for autofill of contact form was taken from CSS-TRICKS (commented ot in stylesheet.css). Author: Geoff Graham.
 <br> This is the link: https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/
 
 ### Media
@@ -159,4 +159,4 @@ The three images from the carousel on the 'About' page were sourced in this way.
 <br>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg7BHEw41onOuDsiCJ9753kv-lLAAz1fDzhTGiMH-F2oZFn3w8Mw
 
 ### Acknowledgements
-Thanks to those of the Code Institute Slack community who helped out when I was stuck.
+Thanks to those of the Code Institute Slack community who helped out when I was stuck and to my friends and family for testing the usability of the site.

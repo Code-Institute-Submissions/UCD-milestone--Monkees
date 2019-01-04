@@ -19,7 +19,7 @@ h5 {
     text-align: center;
 }
 
-/*---theme colors third-------
+/*---theme colors ------
 GREY:#E2DEE9
 RED: #BA2E33
 DARK NAVY: #011627
@@ -249,7 +249,7 @@ button:focus {
     font-weight: 700;
 }
 
-/*------------------------------------------------ Modals ------- */
+/*------------------------------------------------ Modal ------- */
 
 .btn-default, button, button:focus {
     color: #fff;

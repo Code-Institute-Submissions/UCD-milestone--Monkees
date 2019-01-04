@@ -208,9 +208,8 @@ h1 .latest-news {
 }
 
 .index-video {
-    margin-left: 27px;
     display: inline-block;
-    width: 90%;
+    width: 100%;
 }
 
 .video-tagline {
@@ -412,7 +411,8 @@ audio {
     box-shadow: none;
 }
 
-/*code snippet below taken from : https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/ to remove autofill colour*/
+/*code snippet below taken from : https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/ 
+Author : Geoff Graham (to remove autofill colour)*/
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -494,7 +494,9 @@ label {
     font-weight: 500;
 }
 
-/*---------------Code snippet taken from Stack Overflow to hide spinner in number field in contact form-----*/
+/*---------------Code snippet taken from Stack Overflow to hide spinner in number field in contact form
+https://stackoverflow.com/questions/3790935/can-i-hide-the-html5-number-input-s-spin-box
+author: username "Swerhen" originally posted 21/03/14-----*/
 
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {

@@ -46,7 +46,7 @@ GREEN: #84B59F
 
 .navbar-header {
     line-height: 50px;
-    padding-left:15px;
+    padding-left: 15px;
 }
 
 .nav.navbar-nav {
@@ -84,17 +84,18 @@ GREEN: #84B59F
     margin-left: 0;
 }
 
-button, button:focus {
+button,
+button:focus {
     border: none;
     background-color: #84B59F;
     width: 50px;
     height: 50px;
     color: #fff;
     cursor: pointer;
-    outline:0px;
+    outline: 0px;
 }
 
-.glyphicon-menu-hamburger{
+.glyphicon-menu-hamburger {
     font-size: 25px;
     padding-top: 10px;
 }
@@ -117,16 +118,18 @@ button, button:focus {
     transition: transform 1s ease-in-out;
 }
 
-.dropdownLink, .dropdownLink:hover {
+.dropdownLink,
+.dropdownLink:hover {
     font-family: "luckiest Guy", sans-serif;
     color: #fff;
     height: 50px;
     width: 120px;
     font-size: 18px;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-.dropdownItem:hover, .dropdown:hover button {
+.dropdownItem:hover,
+.dropdown:hover button {
     background-color: #78A591;
 }
 
@@ -162,7 +165,7 @@ button, button:focus {
 .index-image {
     padding-top: 50px;
     margin-bottom: 20px;
-    width:100%;
+    width: 100%;
 }
 
 #latest {
@@ -170,7 +173,7 @@ button, button:focus {
     font-size: 75px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top:0;
+    margin-top: 0;
 }
 
 .container-fluid {
@@ -227,7 +230,7 @@ button, button:focus {
 }
 
 #book-the-band-img {
-    background-image: url("Assets/Images/googleImages/empty-stage.png");
+    background-image: url("assets/images/google-images/empty-stage.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -305,13 +308,16 @@ button, button:focus {
     -o-transition: transform 2s ease-in-out;
 }
 
-.carousel-control.left, .carousel-control.right, .carousel-indicators{
+.carousel-control.left,
+.carousel-control.right,
+.carousel-indicators {
     background-image: none;
     color: #BA2E33;
-    z-index:1;
+    z-index: 1;
 }
 
 /*---------------------------------------------------- about section */
+
 .about-text {
     font-size: 20px;
     width: 90%;
@@ -429,8 +435,8 @@ select:-webkit-autofill:focus {
     display: inline-block;
 }
 
-.contact-heading{
-    text-align:left;
+.contact-heading {
+    text-align: left;
 }
 
 .form-control {
@@ -467,12 +473,13 @@ select:-webkit-autofill:focus {
     border-color: transparent;
 }
 
-.form-button:hover, .form-button:active:focus {
+.form-button:hover,
+.form-button:active:focus {
     background-color: #BA2E33;
     border-color: transparent;
     font-weight: 700;
-    color:#fff;
-    outline:0px;
+    color: #fff;
+    outline: 0px;
 }
 
 .form-group {
@@ -526,11 +533,11 @@ td {
 }
 
 th {
-    height:40px;
+    height: 40px;
     background-color: #84B59F;
     text-align: center;
     font-family: "Luckiest Guy", sans-serif;
-    font-size:20px;
+    font-size: 20px;
 }
 
 .background-fill {
@@ -600,8 +607,8 @@ a:hover {
 /*Media queries------------------------------------------*/
 
 @media (max-width:767px) {
-    .navbar{
-        padding-left:0px;
+    .navbar {
+        padding-left: 0px;
     }
     .form-control {
         width: 80%;
@@ -616,13 +623,15 @@ a:hover {
         display: block;
         width: 90%;
     }
-    .about-header{
-        text-align:left;
+    .about-header {
+        text-align: left;
     }
-    .band-pics, .about-text  {
+    .band-pics,
+    .about-text {
         margin-left: 25px;
     }
-    .band-p, .band-member {
+    .band-p,
+    .band-member {
         padding-left: 25px;
     }
     .album-name {
@@ -673,25 +682,42 @@ a:hover {
 }
 
 @media (min-width:2000px) {
-    h4, h5, .navbar, .modal-link, .about-text, .band-p, .band-member, .album-name, .form-text, .form-control, .form-button, label, th, #follow{
-        font-size:1vw;
+    h4,
+    h5,
+    .navbar,
+    .modal-link,
+    .about-text,
+    .band-p,
+    .band-member,
+    .album-name,
+    .form-text,
+    .form-control,
+    .form-button,
+    label,
+    th,
+    #follow {
+        font-size: 1vw;
     }
-    .modal-title, .container.calendar, .music-header{
+    .modal-title,
+    .container.calendar,
+    .music-header {
         font-size: 1.5vw;
     }
-    #latest, h1{
-        font-size:5vw;
+    #latest,
+    h1 {
+        font-size: 5vw;
     }
-    .btn-default, table, td{
+    .btn-default,
+    table,
+    td {
         font-size: 0.7vw;
     }
-    h2, .contact-heading{
-        font-size:3vw;
+    h2,
+    .contact-heading {
+        font-size: 3vw;
     }
-    h3{
-        font-size:2vw;
+    h3 {
+        font-size: 2vw;
     }
-   
+
 }
-
-

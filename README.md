@@ -129,13 +129,13 @@ to identify issues and fix bugs.
 
 ### Favicon generator tool
 This online tool was used to generate a favicon for my site. The image uploaded was a screen shot of one of the 'M' characters from my website.
-<br>The favicon image can be viewed at: https://github.com/kmaaallen/UCD-milestone--Monkees/blob/master/Assets/favicon.ico
+<br>The favicon image can be viewed at: https://github.com/kmaaallen/UCD-milestone--Monkees/blob/master/assets/favicon.ico
 <br>The online generator tool is available at: https://www.favicongenerator.com/
 
 ## Testing
 ### Testing my user stories 
 Testing documentation regarding user stories and cross-browser testing can be viewed at:
-<br> https://github.com/kmaaallen/UCD-milestone--Monkees/blob/master/Documents/Testing/TESTING.md
+<br> https://github.com/kmaaallen/UCD-milestone--Monkees/blob/master/documents/testing/testing.md
 
 ## Deployment
 This page has been deployed using GitHub Pages and can be viewed at : https://kmaaallen.github.io/UCD-milestone--Monkees/
@@ -144,7 +144,7 @@ This page has been deployed using GitHub Pages and can be viewed at : https://km
 ### Content
 All content regarding The Monkees in the 'about' page was taken from the wikipedia pages referenced in the project
 documentation. These references can be accessed in the documents folder under 'Referencing' 
-<br> https://github.com/kmaaallen/UCD-milestone--Monkees/blob/master/Documents/Referencing/Information%20references
+<br> https://github.com/kmaaallen/UCD-milestone--Monkees/blob/master/documents/referencing/information-references
 
 The code snippet in stylesheet.css to hide the spin icon in number field of form was taken from Stack Overflow (commented out in stylesheet.css). Original author 'Swerhen' posted 21/03/14.
 <br> This is the link : https://stackoverflow.com/questions/3790935/can-i-hide-the-html5-number-input-s-spin-box

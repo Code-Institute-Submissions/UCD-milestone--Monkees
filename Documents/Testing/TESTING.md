@@ -43,55 +43,55 @@ IN DESKTOP (LARGER SCREEN SIZES):<br>
 1) Test each navigation link in top navigation bar takes you to the correct page (test navigation bar on each page)<br>
 2) Test social links icons in footer take you to the relevant social site in a new tab (test social icons on each page)<br>
 3) Hover over ‘Sign up to the latest news’ link in footer – confirm underline to indicate link appears.<br>
-    a.Confirm clicking on link launches sign up modal.<br>
-    b.For sign up modal (test sign up link and modal in footer on each page)<br>
-        i.Try to submit without entering anything – confirm form prompts you to enter in email field.<br>
-        ii.Try to enter non-email in field, confirm form requires valid email before submission.<br>
-        iii.Check modal closes on submission or when background outside of modal is clicked.<br>
+    a) Confirm clicking on link launches sign up modal.<br>
+    b) For sign up modal (test sign up link and modal in footer on each page)<br>
+        i) Try to submit without entering anything – confirm form prompts you to enter in email field.<br>
+        ii) Try to enter non-email in field, confirm form requires valid email before submission.<br>
+        iii) Check modal closes on submission or when background outside of modal is clicked.<br>
 4) HOMEPAGE:<br>
-    a.Test each ‘buy’ ticket link under ‘European Tour Dates’. Each link should take you to the blank ticket test page in a new tab.<br>
-    b.Check video controls work – test volume, picture and audio working, full size working etc.<br>
-    c.Hover over ‘Sign up to our newsletter’ – check underline appears and that clicking on link launches sign up modal and it functions as outlined above.<br>
-    d.Hover over ‘Book the Band’ text – confirm text weight increases to indicate link<br>
-        i.Confirm clicking on link takes user to ‘book’ page <br>
+    a) Test each ‘buy’ ticket link under ‘European Tour Dates’. Each link should take you to the blank ticket test page in a new tab.<br>
+    b) Check video controls work – test volume, picture and audio working, full size working etc.<br>
+    c) Hover over ‘Sign up to our newsletter’ – check underline appears and that clicking on link launches sign up modal and it functions as outlined above.<br>
+    d) Hover over ‘Book the Band’ text – confirm text weight increases to indicate link<br>
+        i) Confirm clicking on link takes user to ‘book’ page <br>
 5) ABOUT PAGE:<br>
-    a.Wait to confirm slideshow of images (carousel) begins without prompting.<br>
-        i.Confirm clicking left and right controls to move the images in the carousel<br>
-        ii.Confirm selecting one of the control dots beneath the carousel takes you to the appropriate picture.<br>
+    a) Wait to confirm slideshow of images (carousel) begins without prompting.<br>
+        i) Confirm clicking left and right controls to move the images in the carousel<br>
+        ii) Confirm selecting one of the control dots beneath the carousel takes you to the appropriate picture.<br>
 6) MUSIC PAGE:<br>
-    a.Confirm all four album images, song titles and audio controls are visible and accessible.<br>
-        i.Check each audio control to see it is working (play/pause etc.) and playing audio.<br>
+    a) Confirm all four album images, song titles and audio controls are visible and accessible.<br>
+        i) Check each audio control to see it is working (play/pause etc.) and playing audio.<br>
 7) BOOK PAGE:<br>
-    a.Press submit button on contact form without entering in any fields. Confirm this prompts you to enter email.<br>
-    b.Confirm form checks for valid email format<br>
-    c.Confirm form checks number only has been entered in phone field<br>
-    d.Confirm all fields must be filled in before form will allow you to submit<br>
+    a) Press submit button on contact form without entering in any fields. Confirm this prompts you to enter email.<br>
+    b) Confirm form checks for valid email format<br>
+    c) Confirm form checks number only has been entered in phone field<br>
+    d) Confirm all fields must be filled in before form will allow you to submit<br>
 IN SMALLER SCREEN SIZES (MOBILE AND OTHER SMALL SCREEN SIZES)<br>
 1) Test each navigation link in top navigation bar burger drop down has darker color change on hover and when clicked, takes you to the correct page (test navigation dropdown on each page)<br>
 2) Test social links icons in footer take you to the relevant social site in a new tab (test social icons on each page)<br>
 3) Click on ‘Sign up’ link in top navigation bar<br>
-    a.Confirm clicking on link launches sign up modal.<br>
-    b.For sign up modal (test sign up link and modal in top navigation bar on each page)<br>
-        i.Try to submit without entering anything – confirm form prompts you to enter in email field. <br>
-        ii.Try to enter non-email in field, confirm form requires valid email before submission.<br>
-        iii.Check modal closes on submission or when background outside of modal is clicked.<br>
+    a) Confirm clicking on link launches sign up modal.<br>
+    b) For sign up modal (test sign up link and modal in top navigation bar on each page)<br>
+        i) Try to submit without entering anything – confirm form prompts you to enter in email field. <br>
+        ii) Try to enter non-email in field, confirm form requires valid email before submission.<br>
+        iii) Check modal closes on submission or when background outside of modal is clicked.<br>
 4) HOMEPAGE:<br>
-    a.Test each ‘buy’ ticket link under ‘European Tour Dates’. Each link should take you to the blank ticket test page in a new tab.<br>
-    b.Check video controls work – test volume, picture and audio working, full size working etc.<br>
-    c.Click ‘Sign up to our link, confirm it launches sign up modal and it functions as outlined above.<br>
-    d.Confirm clicking on ‘Book the Band’ link takes user to ‘book’ page <br>
+    a) Test each ‘buy’ ticket link under ‘European Tour Dates’. Each link should take you to the blank ticket test page in a new tab.<br>
+    b) Check video controls work – test volume, picture and audio working, full size working etc.<br>
+    c) Click ‘Sign up to our link, confirm it launches sign up modal and it functions as outlined above.<br>
+    d) Confirm clicking on ‘Book the Band’ link takes user to ‘book’ page <br>
 5) ABOUT PAGE:<br>
-    a.Wait to confirm slideshow of images (carousel) begins without prompting.<br>
-        i.Confirm clicking left and right controls to move the images in the carousel<br>
-        ii.Confirm selecting one of the control dots beneath the carousel takes you to the appropriate picture.<br>
+    a) Wait to confirm slideshow of images (carousel) begins without prompting.<br>
+        i) Confirm clicking left and right controls to move the images in the carousel<br>
+        ii) Confirm selecting one of the control dots beneath the carousel takes you to the appropriate picture.<br>
 6) MUSIC PAGE:<br>
-    a.Confirm all four album images, song titles and audio controls are visible and accessible.<br>
-        i.Check each audio control to see it is working (play/pause etc.) and playing audio.<br>
+    a) Confirm all four album images, song titles and audio controls are visible and accessible.<br>
+        i) Check each audio control to see it is working (play/pause etc.) and playing audio.<br>
 7) BOOK PAGE:<br>
-    a.Press submit button on contact form without entering in any fields. Confirm this prompts you to enter email.<br>
-    b.Confirm form checks for valid email format<br>
-    c.Confirm form checks number only has been entered in phone field<br>
-    d.Confirm all fields must be filled in before form will allow you to submit<br>
+    a) Press submit button on contact form without entering in any fields. Confirm this prompts you to enter email.<br>
+    b) Confirm form checks for valid email format<br>
+    c) Confirm form checks number only has been entered in phone field<br>
+    d) Confirm all fields must be filled in before form will allow you to submit<br>
 
 
 

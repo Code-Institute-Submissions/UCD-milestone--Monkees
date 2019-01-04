@@ -119,13 +119,18 @@ Local git repository was pushed to remote repository on GitHub and site was publ
 
 ### W3C HTML and CSS online validators
 Online validators were used to check code was valid for both HTML and CSS.
-HTML validator: https://validator.w3.org
-CSS Validator: http://jigsaw.w3.org/css-validator/
+<br>HTML validator: https://validator.w3.org
+<br>CSS Validator: http://jigsaw.w3.org/css-validator/
 
 ### Autoprefix tool
 This online autoprefix tool was used to check when vendor pre-fixes were necessary. This was used after my cross-browser testing
 to identify issues and fix bugs.
-Available at : https://autoprefixer.github.io/
+<br>Available at : https://autoprefixer.github.io/
+
+### Favicon generator tool
+This online tool was used to generate a favicon for my site. The image uploaded was a screen shot of one of the 'M' characters from my website.
+<br>The favicon image can be viewed at: https://github.com/kmaaallen/UCD-milestone--Monkees/blob/master/Assets/favicon.ico
+<br>The online generator tool is available at: https://www.favicongenerator.com/
 
 ## Testing
 ### Testing my user stories 

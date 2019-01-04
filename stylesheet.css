@@ -160,8 +160,9 @@ button, button:focus {
 /*-------------------------------------- HOMEPAGE styling */
 
 .index-image {
-    padding-top: 57px;
+    padding-top: 50px;
     margin-bottom: 20px;
+    width:100%;
 }
 
 #latest {
@@ -169,6 +170,7 @@ button, button:focus {
     font-size: 75px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top:0;
 }
 
 .container-fluid {
@@ -178,11 +180,6 @@ button, button:focus {
 
 .col-xs-12.tourdates {
     padding: 0;
-}
-
-h1 .latest-news {
-    font-size: 30px;
-    margin-top: 0;
 }
 
 .tourdates-index {
@@ -203,7 +200,6 @@ h1 .latest-news {
 }
 
 .video-title {
-    font-size: 30px;
     padding-top: 50px;
 }
 
@@ -214,7 +210,6 @@ h1 .latest-news {
 
 .video-tagline {
     padding-top: 10px;
-    font-size: 30px;
 }
 
 .container-fluid.newsletter {
@@ -222,7 +217,6 @@ h1 .latest-news {
     padding-top: 50px;
     padding-bottom: 50px;
     font-weight: 700;
-    font-size: 40px;
     margin-bottom: 0;
 }
 
@@ -676,6 +670,28 @@ a:hover {
         transform: translateY(0px);
         text-align: right;
     }
+}
+
+@media (min-width:2000px) {
+    h4, h5, .navbar, .modal-link, .about-text, .band-p, .band-member, .album-name, .form-text, .form-control, .form-button, label, th, #follow{
+        font-size:1vw;
+    }
+    .modal-title, .container.calendar, .music-header{
+        font-size: 1.5vw;
+    }
+    #latest, h1{
+        font-size:5vw;
+    }
+    .btn-default, table, td{
+        font-size: 0.7vw;
+    }
+    h2, .contact-heading{
+        font-size:3vw;
+    }
+    h3{
+        font-size:2vw;
+    }
+   
 }
 
 

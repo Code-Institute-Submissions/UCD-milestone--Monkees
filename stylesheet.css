@@ -251,7 +251,7 @@ button:focus {
 
 /*------------------------------------------------ Modal ------- */
 
-.btn-default, button, button:focus {
+.btn-default{
     color: #fff;
     font-family: "Luckiest Guy", sans-serif;
     font-size: 15px;
@@ -263,10 +263,12 @@ button:focus {
 .btn-default:hover,
 .btn-default:active,
 .btn-default:active:hover,
-.btn-default:focus {
+.btn-default:focus,
+button.btn-default:focus{
     color: #fff;
     background-color: #99262A;
     border-color: #99262A;
+    width:100px;
 }
 
 .btn:focus {

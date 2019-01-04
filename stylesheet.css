@@ -232,7 +232,7 @@ button:focus {
 }
 
 #book-the-band-img {
-    background-image: url("assets/images/google-images/empty-stage.png");
+    background-image:url("assets/images/google-images/empty-stage.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

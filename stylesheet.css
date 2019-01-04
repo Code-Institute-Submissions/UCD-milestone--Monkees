@@ -606,6 +606,9 @@ a:hover {
 /*Media queries------------------------------------------*/
 
 @media (max-width:767px) {
+    .navbar{
+        padding-left:0px;
+    }
     .form-control {
         width: 80%;
     }
@@ -619,10 +622,10 @@ a:hover {
         display: block;
         width: 90%;
     }
-    .band-pics {
+    .band-pics, .about-text  {
         margin-left: 25px;
     }
-    .band-p {
+    .band-p, .band-member {
         padding-left: 25px;
     }
     .album-name {
@@ -642,9 +645,6 @@ a:hover {
     }
     .music-header {
         padding-top: 60px;
-    }
-    .about-text {
-        margin-left: 25px;
     }
     .social-links {
         transform: translateY(-5px);

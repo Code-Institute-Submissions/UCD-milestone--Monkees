@@ -135,7 +135,7 @@ This online tool was used to generate a favicon for my site. The image uploaded 
 ## Testing
 ### Testing my user stories 
 Testing documentation regarding user stories and cross-browser testing can be viewed at:
-<br> https://github.com/kmaaallen/UCD-milestone--Monkees/blob/master/Documents/Testing/TESTING.docx
+<br> https://github.com/kmaaallen/UCD-milestone--Monkees/blob/master/Documents/Testing/TESTING.md
 
 ## Deployment
 This page has been deployed using GitHub Pages and can be viewed at : https://kmaaallen.github.io/UCD-milestone--Monkees/

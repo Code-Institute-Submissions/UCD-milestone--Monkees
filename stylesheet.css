@@ -622,6 +622,9 @@ a:hover {
         display: block;
         width: 90%;
     }
+    .about-header{
+        text-align:left;
+    }
     .band-pics, .about-text  {
         margin-left: 25px;
     }

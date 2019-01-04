@@ -112,8 +112,9 @@ The social link icons for facebook, twitter and youtube (in footer) were importe
 Main theme font "Luckiest Guy" and sub-theme font "Roboto" were imported from Google fonts.
 <br>https://fonts.google.com/
 
-### GitHub
+### Git
 Local git repository was pushed to remote repository on GitHub and site was published using GitHub pages.
+<br> https://git-scm.com/
 <br>https://github.com/
 
 ### W3C HTML and CSS online validators

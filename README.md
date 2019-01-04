@@ -24,7 +24,7 @@ venue would generate revenue.
 During project development I also created some wireframes for my project. My initial wireframes changed after some feedback on
 the dark color scheme and some changes in layout. The final layout is slightly different as issues arose during development and the color scheme
 changed again after user testing (i.e feedback from family and friends).
-Both sets of wireframes have been included and these can be viewed under the documents folder: https://github.com/kmaaallen/UCD-milestone--Monkees/tree/master/Documents/Project%20Development/WireFrames .
+Both sets of wireframes have been included and these can be viewed under the documents folder: https://github.com/kmaaallen/UCD-milestone--Monkees/tree/master/documents/project-development/wire-frames.
 
 ## Features
 ### Existing Features
